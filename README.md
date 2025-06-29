@@ -1,2 +1,2 @@
-# piclingo-support
- Support pages for PicLingo app
+# camlingo-support
+ Support pages for CamLingo app  

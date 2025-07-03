@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamLingo - プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .back-link {
+            color: #007AFF;
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #007AFF;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .effective-date {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            color: #007AFF;
+        }
+        .email {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        .email:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #007AFF;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .data-flow {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← サポートページに戻る</a>
+        
+        <h1>🔒 プライバシーポリシー</h1>
+        
+        <div class="effective-date">
+            施行日：2025年6月1日
+        </div>
+
+        <div class="highlight">
+            <strong>プライバシー概要：</strong>CamLingoはお客様のプライバシーを尊重します。これらの機能をご利用になることを選択された場合にのみ、お客様の写真やカメラにアクセスします。写真は認識のためGoogle Gemini AIに直接送信され、お客様の写真や認識結果をサーバーに保存することはありません。ユーザー名、サブスクリプションタイプ、サブスクリプション期間、認識回数を含む基本的なアカウント情報のみを保存します。すべての学習データはお客様のデバイスに保存されます。
+        </div>
+
+        <div class="warning">
+            <strong>重要なプライバシー通知：</strong>写真はGoogle Geminiに認識のためアップロードされるため、文書、身分証明書、クレジットカード、医療記録、その他の機密個人データなどの個人情報を含む写真を撮影またはアップロードしないでください。語彙を学習したい物体の写真のみをアップロードしてください。<strong>アップロード前に写真に個人情報や機密情報が含まれていないことを確認するのはお客様の責任です。</strong>
+        </div>
+
+        <h2>1. 収集する情報</h2>
+        <p>CamLingoはプライバシーを重視して設計されています。語彙学習サービスの提供に必要な情報のみを収集します。</p>
+        
+        <h3>お客様が提供する情報：</h3>
+        <ul>
+            <li><strong>アカウント情報：</strong>ユーザー名、サブスクリプションタイプ、サブスクリプション期間</li>
+            <li><strong>言語設定：</strong>選択された学習言語と母国語</li>
+            <li><strong>写真：</strong>フォトライブラリから選択またはカメラで撮影した画像（認識のためGoogle Geminiに直接送信）</li>
+            <li><strong>サポート連絡：</strong>サポートメールに送信されたメッセージ</li>
+        </ul>
+
+        <div class="warning">
+            <strong>写真内容の警告：</strong>認識のためアップロードする前に、写真に個人文書、財務情報、医療記録、その他の機密個人データが含まれていないことを確認してください。
+        </div>
+
+        <h3>自動的に収集される情報：</h3>
+        <ul>
+            <li><strong>使用データ：</strong>認識試行回数（サブスクリプション使用状況の追跡）</li>
+            <li><strong>デバイス情報：</strong>デバイスモデル、オペレーティングシステムバージョン（アプリ互換性のため）</li>
+            <li><strong>アプリ使用状況：</strong>使用された機能、クラッシュレポート（アプリパフォーマンス向上のため）</li>
+            <li><strong>システム言語：</strong>デバイスの言語設定（アプリインターフェース言語の決定）</li>
+        </ul>
+
+        <h2>2. 情報の使用方法</h2>
+        <div class="data-flow">
+            <h3>写真処理フロー：</h3>
+            <ol>
+                <li>フォトライブラリから写真を選択または新しい写真を撮影</li>
+                <li>写真がGoogle Gemini APIに物体認識のため直接送信</li>
+                <li>Gemini AIが物体を識別し語彙情報を返却</li>
+                <li>写真と語彙がデバイスにローカル保存</li>
+                <li>サブスクリプション管理のため認識試行回数を追跡</li>
+                <li><strong>お客様の写真や認識結果をサーバーに保存することはありません</strong></li>
+            </ol>
+        </div>
+
+        <p>お客様の情報は以下の目的で使用されます：</p>
+        <ul>
+            <li>22の対応言語での写真認識によるAI駆動の語彙学習の提供</li>
+            <li>アカウントとサブスクリプション状況の管理</li>
+            <li>サブスクリプションプランに基づく使用制限の追跡</li>
+            <li>デバイス上での学習進捗のローカル保存</li>
+            <li>言語設定に基づくアプリインターフェースのカスタマイズ</li>
+            <li>アプリパフォーマンスの向上と技術的問題の修正</li>
+            <li>サポートリクエストへの回答</li>
+        </ul>
+
+        <p><strong>対応言語：</strong>中国語（簡体字）、中国語（繁体字）、英語（米国）、英語（英国）、スペイン語（スペイン）、スペイン語（メキシコ）、ポルトガル語（ポルトガル）、ポルトガル語（ブラジル）、フランス語（フランス）、フランス語（カナダ）、日本語、韓国語、ドイツ語、ロシア語、イタリア語、オランダ語、アラビア語、ヒンディー語、タイ語、ベトナム語、トルコ語、ポーランド語。</p>
+
+        <h2>3. 権限とデータアクセス</h2>
+        <div class="highlight">
+            <p><strong>フォトライブラリアクセス：</strong></p>
+            <ul>
+                <li><strong>タイミング：</strong>「フォトライブラリから選択」をタップした時のみ</li>
+                <li><strong>目的：</strong>語彙学習のための写真選択</li>
+                <li><strong>データ使用：</strong>選択された写真はGoogle Gemini AIによって一時的に処理</li>
+            </ul>
+            
+            <p><strong>カメラアクセス：</strong></p>
+            <ul>
+                <li><strong>タイミング：</strong>「写真を撮る」をタップした時のみ</li>
+                <li><strong>目的：</strong>即座の学習のための新しい写真の撮影</li>
+                <li><strong>データ使用：</strong>撮影された写真はGoogle Gemini AIによって一時的に処理</li>
+            </ul>
+            
+            <p><strong>システム言語アクセス：</strong></p>
+            <ul>
+                <li><strong>タイミング：</strong>アプリ起動時</li>
+                <li><strong>目的：</strong>お客様の希望言語でのアプリインターフェース表示</li>
+                <li><strong>データ使用：</strong>言語設定はローカル保存され、サーバーに送信されません</li>
+            </ul>
+        </div>
+
+        <h2>4. サードパーティサービス</h2>
+        <h3>Google Gemini AI</h3>
+        <p>写真認識機能にGoogle Gemini APIを使用しています：</p>
+        <ul>
+            <li>写真は物体識別のためGeminiに一時的に送信</li>
+            <li>このデータ処理にはGoogleのプライバシーポリシーが適用</li>
+            <li>処理後、写真はGoogleによって保持されません</li>
+            <li>写真に個人情報を追加することはありませんが、ユーザーが撮影する内容をコントロールすることはできません</li>
+        </ul>
+        <p>詳細：<a href="https://policies.google.com/privacy" class="email" target="_blank">Googleプライバシーポリシー</a></p>
+
+        <h2>5. データストレージとセキュリティ</h2>
+        <h3>サーバーに保存する内容：</h3>
+        <ul>
+            <li>アカウント情報（ユーザー名、サブスクリプションタイプ、サブスクリプション期間）</li>
+            <li>サブスクリプション管理のための認識試行回数</li>
+            <li>このデータは暗号化され安全に保存</li>
+        </ul>
+
+        <h3>ローカルストレージ（お客様のデバイス上）：</h3>
+        <ul>
+            <li>写真と語彙学習記録</li>
+            <li>アプリの設定と設定項目</li>
+            <li>認識結果と語彙データ</li>
+            <li>このデータはお客様の管理下にあり、当社はアクセスできません</li>
+        </ul>
+
+        <h3>サーバーに保存しない内容：</h3>
+        <ul>
+            <li>お客様の写真（Google Gemini APIに直接送信）</li>
+            <li>認識結果や識別された物体</li>
+            <li>ユーザー名以外の個人識別情報</li>
+            <li>お客様の具体的な学習進捗や語彙データ</li>
+            <li>デバイス位置データ</li>
+            <li>詳細な使用分析や追跡データ</li>
+        </ul>
+
+        <h2>6. 国際データ転送</h2>
+        <p>お客様のアカウント情報と使用データは当社の安全なサーバーに保存されます。Google Gemini APIを使用する際、お客様の写真はGoogleのサーバーに直接送信され処理されますが、これらのサーバーはお客様の国外に位置する場合があります。国際データ転送に対して適切な保護措置を実施し、適用されるデータ保護規制に準拠しています。</p>
+
+        <h2>7. 児童のプライバシー</h2>
+        <p>CamLingoはすべての年齢のユーザーに適しています。年齢に関係なく、最小限の個人情報（ユーザー名、サブスクリプション詳細、使用回数）のみを収集します。アプリの設計は学習コンテンツのローカルストレージに焦点を当てており、認識目的でのみGoogleのGemini APIに写真を直接送信します。</p>
+
+        <h2>8. お客様のプライバシー権利</h2>
+        <p>お客様には以下の権利があります：</p>
+        <ul>
+            <li><strong>データへのアクセス：</strong>保存されたアカウント情報のコピーを要求</li>
+            <li><strong>データの訂正：</strong>ユーザー名やアカウント情報の更新</li>
+            <li><strong>データの削除：</strong>アカウントと関連データの削除を要求</li>
+            <li><strong>ローカルデータの管理：</strong>すべての学習データはデバイス上にローカル保存</li>
+            <li><strong>ローカルデータの削除：</strong>アプリをアンインストールするとローカル保存されたデータがすべて削除</li>
+            <li><strong>データ処理の制限：</strong>写真認識機能の使用を選択しないことが可能</li>
+        </ul>
+
+        <h2>9. GDPR準拠（EU ユーザー）</h2>
+        <p>欧州連合のユーザーに対して：</p>
+        <ul>
+            <li><strong>法的根拠：</strong>処理はサブスクリプションサービスに対するお客様の同意と契約上の必要性に基づく</li>
+            <li><strong>データ最小化：</strong>アプリ機能とアカウント管理に必要なデータのみを収集</li>
+            <li><strong>撤回権：</strong>いつでもサブスクリプションをキャンセルし、データ削除を要求可能</li>
+            <li><strong>データポータビリティ：</strong>ポータブル形式でアカウントデータを要求可能</li>
+            <li><strong>データ保護責任者：</strong>データ保護に関するお問い合わせは当社までご連絡ください</li>
+        </ul>
+
+        <h2>10. カリフォルニア州プライバシー権（CCPA）</h2>
+        <p>カリフォルニア州居住者に対して：</p>
+        <ul>
+            <li>個人情報を販売することはありません</li>
+            <li>基本的なアカウント情報と使用データのみを収集</li>
+            <li>収集する情報とその使用方法を知る権利があります</li>
+            <li>個人情報の削除を要求できます</li>
+        </ul>
+
+        <h2>11. 本プライバシーポリシーの変更</h2>
+        <p>実践の変更や法的コンプライアンスを反映するため、本プライバシーポリシーを更新する場合があります。重要な変更については以下の方法でユーザーに通知します：</p>
+        <ul>
+            <li>施行日の更新</li>
+            <li>アプリ内での通知投稿</li>
+            <li>重大な変更については追加通知の提供</li>
+        </ul>
+
+        <h2>12. お問い合わせ</h2>
+        <p>本プライバシーポリシーまたは当社のプライバシー慣行についてご質問がある場合：</p>
+        <div class="contact-info" style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <p><strong>メール：</strong> <a href="mailto:mrvincent2025@163.com" class="email">mrvincent2025@163.com</a></p>
+            <p><strong>開発者：</strong> libowen</p>
+            <p><strong>回答時間：</strong> 24時間以内</p>
+        </div>
+
+        <h2>13. 透明性レポート</h2>
+        <p><strong>データ要求：</strong>適用法に従って、アカウント情報に対する正当な政府要求に応答します。</p>
+        <p><strong>データ侵害：</strong>保存されたアカウント情報を保護するセキュリティ措置を維持し、法律で要求される場合はセキュリティインシデントをユーザーに通知します。</p>
+        <p><strong>サードパーティアクセス：</strong>Google Gemini APIのみがお客様のデバイスから認識目的で写真を直接処理します。</p>
+
+        <footer style="margin-top: 40px; text-align: center; color: #666; font-size: 14px;">
+            <p>&copy; 2025 libowen. All rights reserved.</p>
+            <p><a href="index.html" class="email">サポートページに戻る</a></p>
+        </footer>
+    </div>
+</body>
+</html>

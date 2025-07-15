@@ -245,10 +245,17 @@
     // Update language selector display
     updateLanguageSelector(lang);
 
-    // Update page content if i18n is loaded
-    if (typeof changeLanguage === 'function') {
-      changeLanguage(lang);
+    // Update page content using i18n functions
+    if (typeof window.changeLanguage === 'function') {
+      window.changeLanguage(lang);
+    } else if (typeof window.updatePageText === 'function') {
+      window.updatePageText(lang);
+    } else {
+      console.warn("i18n functions not available");
     }
+
+    // Update SEO meta tags
+    updateSEOMetaTags(lang);
 
     console.log("Language set to:", lang);
   }
@@ -438,11 +445,67 @@
     initSmoothScrolling();
   }
 
+  // Update SEO meta tags based on language
+  function updateSEOMetaTags(lang) {
+    // Check if i18n object exists and is loaded
+    if (typeof i18n === 'undefined') {
+      console.log("i18n object not yet loaded, skipping SEO update for:", lang);
+      return;
+    }
+    
+    if (!i18n[lang]) {
+      console.log("Language not found in i18n config:", lang);
+      return;
+    }
+    
+    if (!i18n[lang].seo) {
+      console.log("SEO config not found for language:", lang);
+      return;
+    }
+
+    const config = i18n[lang].seo;
+    
+    try {
+      // Update title
+      document.title = config.title;
+      
+      // Update meta tags
+      const titleMeta = document.querySelector('meta[name="title"]');
+      const descMeta = document.querySelector('meta[name="description"]');
+      const keywordsMeta = document.querySelector('meta[name="keywords"]');
+      
+      if (titleMeta) titleMeta.setAttribute('content', config.title);
+      if (descMeta) descMeta.setAttribute('content', config.description);
+      if (keywordsMeta) keywordsMeta.setAttribute('content', config.keywords);
+      
+      // Update Open Graph
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      const ogLocale = document.querySelector('meta[property="og:locale"]');
+      
+      if (ogTitle) ogTitle.setAttribute('content', config.title);
+      if (ogDesc) ogDesc.setAttribute('content', config.description);
+      if (ogLocale) ogLocale.setAttribute('content', lang.replace('-', '_'));
+      
+      // Update Twitter Card
+      const twitterTitle = document.querySelector('meta[property="twitter:title"]');
+      const twitterDesc = document.querySelector('meta[property="twitter:description"]');
+      
+      if (twitterTitle) twitterTitle.setAttribute('content', config.title);
+      if (twitterDesc) twitterDesc.setAttribute('content', config.description);
+      
+      console.log("SEO meta tags updated for language:", lang);
+    } catch (error) {
+      console.error("Error updating SEO meta tags:", error);
+    }
+  }
+
   // Expose functions globally for external use
   window.CamLingoLanguage = {
     detectLanguage,
     setLanguage,
-    supportedLanguages
+    supportedLanguages,
+    updateSEOMetaTags
   };
 
   // Start initialization

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CamLingo – Learn Any Language from Pictures</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">Cam<span class="accent">Lingo</span></div>
+        <div class="language-selector">
+          <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="en-US">English (US)</option>
+            <option value="en-GB">English (UK)</option>
+            <option value="zh-CN">简体中文</option>
+            <option value="zh-TW">繁體中文</option>
+            <option value="es-ES">Español (España)</option>
+            <option value="es-MX">Español (México)</option>
+            <option value="fr-FR">Français (France)</option>
+            <option value="fr-CA">Français (Canada)</option>
+            <option value="pt-PT">Português (Portugal)</option>
+            <option value="pt-BR">Português (Brasil)</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="de">Deutsch</option>
+            <option value="ru">Русский</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="ar">العربية</option>
+            <option value="hi">हिन्दी</option>
+            <option value="th">ไทย</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="tr">Türkçe</option>
+            <option value="pl">Polski</option>
+          </select>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" data-i18n="nav.features">Features</a></li>
+          <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="#download" class="cta" data-i18n="nav.download">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <header class="hero"></header>
+
+  <!-- Intro tagline under hero -->
+  <section id="intro" class="section intro">
+    <div class="container">
+      <h1 class="intro-title" data-i18n="intro.title">Learn Any Language from <span class="accent">Pictures</span></h1>
+      <p class="subtitle intro-subtitle" data-i18n="intro.subtitle">Snap a photo, tap a word and see instant translations, examples and pronunciation – powered by AI.</p>
+      <a href="#download" class="btn-primary" data-i18n="intro.button">Get the App</a>
+    </div>
+  </section>
+
+  <!-- Problem Statement -->
+  <section id="moments" class="section moments">
+    <div class="container">
+      <blockquote class="moments-quote">
+        <p data-i18n="moments.quote1">"How do I say this object in another language?"</p>
+        <p data-i18n="moments.quote2">"I see a chair, but I don't know how to say it in Spanish."</p>
+      </blockquote>
+      <p class="moments-summary" data-i18n="moments.summary">CamLingo was made for moments like these.</p>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="features.title">Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3 data-i18n="features.snap.title">Snap & Translate</h3>
+          <p data-i18n="features.snap.desc">Use your camera to capture any text. Our AI engine detects words and delivers accurate translations in seconds.</p>
+        </div>
+        <div class="feature-item">
+          <h3 data-i18n="features.visual.title">Visual Vocabulary Builder</h3>
+          <p data-i18n="features.visual.desc">Tap on individual words to view pronunciation, example sentences and save them to your personal list.</p>
+        </div>
+        <div class="feature-item">
+          <h3 data-i18n="features.history.title">History & Review</h3>
+          <p data-i18n="features.history.desc">Your images and word lists are stored securely so you can revisit and reinforce learning anytime.</p>
+        </div>
+        <div class="feature-item">
+          <h3 data-i18n="features.multilang.title">Multi-language Support</h3>
+          <p data-i18n="features.multilang.desc">Supports 22 languages: English (US/UK), Spanish (Spain/Mexico), Chinese (Simplified/Traditional), French (France/Canada), Portuguese (Portugal/Brazil), Japanese, Korean, German, Russian, Italian, Dutch, Arabic, Hindi, Thai, Vietnamese, Turkish, Polish.</p>
+        </div>
+        <div class="feature-item">
+          <h3 data-i18n="features.privacy.title">Privacy First</h3>
+          <p data-i18n="features.privacy.desc">All data is encrypted and you can delete your account – and all related images – with a single tap.</p>
+        </div>
+        <div class="feature-item">
+          <h3 data-i18n="features.plans.title">Free & Pro Plans</h3>
+          <p data-i18n="features.plans.desc">Start for free with a limited number of snaps, or upgrade to Pro for unlimited usage and priority processing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title" data-i18n="pricing.title">Pricing</h2>
+      <div class="pricing-table">
+        <div class="pricing-plan">
+          <h3 class="plan-name" data-i18n="pricing.weekly.name">Weekly</h3>
+          <p class="plan-price" data-i18n="pricing.weekly.price">$1.49 / week</p>
+          <ul class="plan-features">
+            <li data-i18n="pricing.weekly.features.0">Unlimited snaps & translations</li>
+            <li data-i18n="pricing.weekly.features.1">Priority AI processing</li>
+            <li data-i18n="pricing.weekly.features.2">Cancel anytime</li>
+          </ul>
+        </div>
+        <div class="pricing-plan plan-highlight">
+          <h3 class="plan-name" data-i18n="pricing.pro.name">Pro</h3>
+          <p class="plan-price" data-i18n="pricing.pro.price">$4.99 / month</p>
+          <ul class="plan-features">
+            <li data-i18n="pricing.pro.features.0">Unlimited snaps & translations</li>
+            <li data-i18n="pricing.pro.features.1">Priority AI processing</li>
+            <li data-i18n="pricing.pro.features.2">Early access to new features</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pricing-note" data-i18n="pricing.note">Every new account includes <strong>3 free image translations</strong> to try CamLingo.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary data-i18n="faq.how.q">How does CamLingo work?</summary>
+          <p data-i18n="faq.how.a">Our app combines optical character recognition (OCR) with advanced AI language models to detect text in images and translate it instantly.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.languages.q">Which languages are supported?</summary>
+          <p data-i18n="faq.languages.a">CamLingo currently supports Chinese (Simplified), Chinese (Traditional), English (US & UK), Spanish (Spain & Mexico), Portuguese (Portugal & Brazil), French (France & Canada), Japanese, Korean, German, Russian, Italian, Dutch, Arabic, Hindi, Thai, Vietnamese, Turkish and Polish.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.difference.q">What is the difference between Free and Pro?</summary>
+          <p data-i18n="faq.difference.a">The Free plan lets you try all features with a limited number of image translations. Pro removes these limits and unlocks priority processing.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.protection.q">How is my data protected?</summary>
+          <p data-i18n="faq.protection.a">All data is encrypted in transit and at rest. You may permanently delete your account and associated data at any time from Settings.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="section alt-bg">
+    <div class="container text-center">
+      <h2 class="section-title" data-i18n="download.title">Download CamLingo</h2>
+      <p data-i18n="download.subtitle">Turn your camera into a powerful language tutor today.</p>
+      <a href="https://apps.apple.com/us/app/camlingo/id6747738762" class="btn-primary" target="_blank" rel="noopener" data-i18n="download.button">View on the App Store</a>
+      <p class="small-print" data-i18n="download.note">Requires iOS 16.0 or later. iPhone and iPad supported.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">Cam<span class="accent">Lingo</span></div>
+      <ul class="footer-links">
+        <li><a href="#" data-i18n="footer.privacy" data-link="privacy">Privacy Policy</a></li>
+        <li><a href="#" data-i18n="footer.terms">Terms of Use</a></li>
+        <li><a href="#" data-i18n="footer.contact" data-link="support">Contact Support</a></li>
+      </ul>
+      <p class="copyright" data-i18n="footer.copyright">© 2025 CamLingo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 

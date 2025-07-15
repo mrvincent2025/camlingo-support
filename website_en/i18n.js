@@ -4,7 +4,29 @@ const i18n = {
     nav: { features: 'Features', pricing: 'Pricing', faq: 'FAQ', download: 'Download' },
     intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Snap a photo, tap a word and see instant translations, examples and pronunciation – powered by AI.', button: 'Get the App' },
     features: { title: 'Key Features' },
-    pricing: { title: 'Pricing' },
+    language: { search: 'Search language...' },
+    pricing: { 
+      title: 'Pricing',
+      weekly: {
+        name: 'Weekly',
+        price: '$1.49 / week',
+        features: [
+          '20 image translations per day',
+          'Priority AI processing',
+          'Cancel anytime'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '$4.99 / month',
+        features: [
+          '30 image translations per day',
+          'Priority AI processing',
+          'Early access to new features'
+        ]
+      },
+      note: 'Every new account includes <strong>3 free image translations</strong> to try CamLingo.'
+    },
     faq: { title: 'Frequently Asked Questions' },
     download: { title: 'Download CamLingo' },
     footer: { privacy: 'Privacy Policy', terms: 'Terms of Use', contact: 'Contact Support' },
@@ -14,7 +36,29 @@ const i18n = {
     nav: { features: 'Features', pricing: 'Pricing', faq: 'FAQ', download: 'Download' },
     intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Snap a photo, tap a word and see instant translations, examples and pronunciation – powered by AI.', button: 'Get the App' },
     features: { title: 'Key Features' },
-    pricing: { title: 'Pricing' },
+    language: { search: 'Search language...' },
+    pricing: { 
+      title: 'Pricing',
+      weekly: {
+        name: 'Weekly',
+        price: '£1.19 / week',
+        features: [
+          '20 image translations per day',
+          'Priority AI processing',
+          'Cancel anytime'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '£3.99 / month',
+        features: [
+          '30 image translations per day',
+          'Priority AI processing',
+          'Early access to new features'
+        ]
+      },
+      note: 'Every new account includes <strong>3 free image translations</strong> to try CamLingo.'
+    },
     faq: { title: 'Frequently Asked Questions' },
     download: { title: 'Download CamLingo' },
     footer: { privacy: 'Privacy Policy', terms: 'Terms of Use', contact: 'Contact Support' },
@@ -24,7 +68,29 @@ const i18n = {
     nav: { features: '功能特色', pricing: '价格', faq: '常见问题', download: '下载' },
     intro: { title: '从<span class="accent">图片</span>学习任何语言', subtitle: '拍照、点击单词，立即获得翻译、例句和发音 – 由AI驱动。', button: '获取应用' },
     features: { title: '核心功能' },
-    pricing: { title: '价格' },
+    language: { search: '搜索语言...' },
+    pricing: { 
+      title: '价格',
+      weekly: {
+        name: '周会员',
+        price: '¥10.99 / 周',
+        features: [
+          '每天20次识图上限',
+          '优先AI处理',
+          '随时取消'
+        ]
+      },
+      pro: {
+        name: '月会员',
+        price: '¥35.99 / 月',
+        features: [
+          '每天30次识图上限',
+          '优先AI处理',
+          '新功能抢先体验'
+        ]
+      },
+      note: '每个新账户包含<strong>3次免费识图</strong>来体验CamLingo。'
+    },
     faq: { title: '常见问题' },
     download: { title: '下载CamLingo' },
     footer: { privacy: '隐私政策', terms: '使用条款', contact: '联系支持' },
@@ -34,7 +100,29 @@ const i18n = {
     nav: { features: '功能特色', pricing: '價格', faq: '常見問題', download: '下載' },
     intro: { title: '從<span class="accent">圖片</span>學習任何語言', subtitle: '拍照、點擊單詞，立即獲得翻譯、例句和發音 – 由AI驅動。', button: '獲取應用' },
     features: { title: '核心功能' },
-    pricing: { title: '價格' },
+    language: { search: '搜尋語言...' },
+    pricing: { 
+      title: '價格',
+      weekly: {
+        name: '週會員',
+        price: 'NT$45 / 週',
+        features: [
+          '每天20次識圖上限',
+          '優先AI處理',
+          '隨時取消'
+        ]
+      },
+      pro: {
+        name: '月會員',
+        price: 'NT$150 / 月',
+        features: [
+          '每天30次識圖上限',
+          '優先AI處理',
+          '新功能搶先體驗'
+        ]
+      },
+      note: '每個新帳戶包含<strong>3次免費識圖</strong>來體驗CamLingo。'
+    },
     faq: { title: '常見問題' },
     download: { title: '下載CamLingo' },
     footer: { privacy: '隱私政策', terms: '使用條款', contact: '聯繫支持' },
@@ -44,18 +132,61 @@ const i18n = {
     nav: { features: 'Características', pricing: 'Precios', faq: 'Preguntas frecuentes', download: 'Descargar' },
     intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: 'Toma una foto, toca una palabra y obtén traducciones, ejemplos y pronunciación instantáneamente – impulsado por IA.', button: 'Obtener la app' },
     features: { title: 'Características principales' },
-    pricing: { title: 'Precios' },
+    language: { search: 'Buscar idioma...' },
+    pricing: { 
+      title: 'Precios',
+      weekly: {
+        name: 'Semanal',
+        price: '€1.39 / semana',
+        features: [
+          '20 traducciones de imágenes por día',
+          'Procesamiento AI prioritario',
+          'Cancelar en cualquier momento'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '€4.49 / mes',
+        features: [
+          '30 traducciones de imágenes por día',
+          'Procesamiento AI prioritario',
+          'Acceso anticipado a nuevas funciones'
+        ]
+      },
+      note: 'Cada cuenta nueva incluye <strong>3 traducciones de imágenes gratis</strong> para probar CamLingo.'
+    },
     faq: { title: 'Preguntas frecuentes' },
     download: { title: 'Descargar CamLingo' },
     footer: { privacy: 'Política de privacidad', terms: 'Términos de uso', contact: 'Contactar soporte' },
-    links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-es-mx.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-es-mx.html' },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-es-es.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-es-es.html' }
   },
   'es-MX': {
     nav: { features: 'Características', pricing: 'Precios', faq: 'Preguntas frecuentes', download: 'Descargar' },
     intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: 'Toma una foto, toca una palabra y obtén traducciones, ejemplos y pronunciación instantáneamente – impulsado por IA.', button: 'Obtener la app' },
     features: { title: 'Características principales' },
-    pricing: { title: 'Precios' },
+    language: { search: 'Buscar idioma...' },
+    pricing: { 
+      title: 'Precios',
+      weekly: {
+        name: 'Semanal',
+        price: '$29.99 MXN / semana',
+        features: [
+          '20 traducciones de imágenes por día',
+          'Procesamiento AI prioritario',
+          'Cancelar en cualquier momento'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '$99.99 MXN / mes',
+        features: [
+          '30 traducciones de imágenes por día',
+          'Procesamiento AI prioritario',
+          'Acceso anticipado a nuevas funciones'
+        ]
+      },
+      note: 'Cada cuenta nueva incluye <strong>3 traducciones de imágenes gratis</strong> para probar CamLingo.'
+    },
     faq: { title: 'Preguntas frecuentes' },
     download: { title: 'Descargar CamLingo' },
     footer: { privacy: 'Política de privacidad', terms: 'Términos de uso', contact: 'Contactar soporte' }
@@ -64,7 +195,29 @@ const i18n = {
     nav: { features: 'Fonctionnalités', pricing: 'Tarifs', faq: 'FAQ', download: 'Télécharger' },
     intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'Prenez une photo, tapez sur un mot et obtenez instantanément des traductions, des exemples et la prononciation – alimenté par l\'IA.', button: 'Obtenir l\'app' },
     features: { title: 'Fonctionnalités principales' },
-    pricing: { title: 'Tarifs' },
+    language: { search: 'Rechercher une langue...' },
+    pricing: { 
+      title: 'Tarifs',
+      weekly: {
+        name: 'Hebdomadaire',
+        price: '1,49 € / semaine',
+        features: [
+          '20 traductions d\'images par jour',
+          'Traitement IA prioritaire',
+          'Annuler à tout moment'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '4,99 € / mois',
+        features: [
+          '30 traductions d\'images par jour',
+          'Traitement IA prioritaire',
+          'Accès anticipé aux nouvelles fonctionnalités'
+        ]
+      },
+      note: 'Chaque nouveau compte inclut <strong>3 traductions d\'images gratuites</strong> pour essayer CamLingo.'
+    },
     faq: { title: 'Questions fréquemment posées' },
     download: { title: 'Télécharger CamLingo' },
     footer: { privacy: 'Politique de confidentialité', terms: 'Conditions d\'utilisation', contact: 'Contacter le support' },
@@ -74,7 +227,29 @@ const i18n = {
     nav: { features: 'Fonctionnalités', pricing: 'Tarifs', faq: 'FAQ', download: 'Télécharger' },
     intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'Prenez une photo, tapez sur un mot et obtenez instantanément des traductions, des exemples et la prononciation – alimenté par l\'IA.', button: 'Obtenir l\'app' },
     features: { title: 'Fonctionnalités principales' },
-    pricing: { title: 'Tarifs' },
+    language: { search: 'Rechercher une langue...' },
+    pricing: { 
+      title: 'Tarifs',
+      weekly: {
+        name: 'Hebdomadaire',
+        price: '1,99 $ CA / semaine',
+        features: [
+          '20 traductions d\'images par jour',
+          'Traitement IA prioritaire',
+          'Annuler à tout moment'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '6,49 $ CA / mois',
+        features: [
+          '30 traductions d\'images par jour',
+          'Traitement IA prioritaire',
+          'Accès anticipé aux nouvelles fonctionnalités'
+        ]
+      },
+      note: 'Chaque nouveau compte inclut <strong>3 traductions d\'images gratuites</strong> pour essayer CamLingo.'
+    },
     faq: { title: 'Questions fréquemment posées' },
     download: { title: 'Télécharger CamLingo' },
     footer: { privacy: 'Politique de confidentialité', terms: 'Conditions d\'utilisation', contact: 'Contacter le support' }
@@ -83,7 +258,29 @@ const i18n = {
     nav: { features: 'Características', pricing: 'Preços', faq: 'Perguntas frequentes', download: 'Transferir' },
     intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'Tire uma foto, toque numa palavra e obtenha traduções, exemplos e pronúncia instantâneos – alimentado por IA.', button: 'Obter a app' },
     features: { title: 'Características principais' },
-    pricing: { title: 'Preços' },
+    language: { search: 'Pesquisar idioma...' },
+    pricing: { 
+      title: 'Preços',
+      weekly: {
+        name: 'Semanal',
+        price: '1,39 € / semana',
+        features: [
+          '20 traduções de imagens por dia',
+          'Processamento IA prioritário',
+          'Cancelar a qualquer momento'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '4,49 € / mês',
+        features: [
+          '30 traduções de imagens por dia',
+          'Processamento IA prioritário',
+          'Acesso antecipado a novas funcionalidades'
+        ]
+      },
+      note: 'Cada conta nova inclui <strong>3 traduções de imagens gratuitas</strong> para experimentar CamLingo.'
+    },
     faq: { title: 'Perguntas frequentes' },
     download: { title: 'Transferir CamLingo' },
     footer: { privacy: 'Política de privacidade', terms: 'Termos de utilização', contact: 'Contactar suporte' },
@@ -93,7 +290,29 @@ const i18n = {
     nav: { features: 'Recursos', pricing: 'Preços', faq: 'Perguntas frequentes', download: 'Baixar' },
     intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'Tire uma foto, toque em uma palavra e obtenha traduções, exemplos e pronúncia instantâneos – alimentado por IA.', button: 'Obter o app' },
     features: { title: 'Recursos principais' },
-    pricing: { title: 'Preços' },
+    language: { search: 'Pesquisar idioma...' },
+    pricing: { 
+      title: 'Preços',
+      weekly: {
+        name: 'Semanal',
+        price: 'R$ 7,49 / semana',
+        features: [
+          '20 traduções de imagens por dia',
+          'Processamento IA prioritário',
+          'Cancelar a qualquer momento'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: 'R$ 24,99 / mês',
+        features: [
+          '30 traduções de imagens por dia',
+          'Processamento IA prioritário',
+          'Acesso antecipado a novos recursos'
+        ]
+      },
+      note: 'Cada conta nova inclui <strong>3 traduções de imagens gratuitas</strong> para experimentar CamLingo.'
+    },
     faq: { title: 'Perguntas frequentes' },
     download: { title: 'Baixar CamLingo' },
     footer: { privacy: 'Política de privacidade', terms: 'Termos de uso', contact: 'Contatar suporte' },
@@ -103,7 +322,29 @@ const i18n = {
     nav: { features: '機能', pricing: '料金', faq: 'よくある質問', download: 'ダウンロード' },
     intro: { title: '<span class="accent">画像</span>から言語を学ぶ', subtitle: '写真を撮り、単語をタップして、翻訳、例文、発音を即座に取得 – AI搭載。', button: 'アプリを入手' },
     features: { title: '主要機能' },
-    pricing: { title: '料金' },
+    language: { search: '言語を検索...' },
+    pricing: { 
+      title: '料金',
+      weekly: {
+        name: '週間プラン',
+        price: '¥199 / 週',
+        features: [
+          '1日20回の画像翻訳',
+          '優先AI処理',
+          'いつでもキャンセル可能'
+        ]
+      },
+      pro: {
+        name: 'プロプラン',
+        price: '¥699 / 月',
+        features: [
+          '1日30回の画像翻訳',
+          '優先AI処理',
+          '新機能の先行アクセス'
+        ]
+      },
+      note: '新規アカウントには<strong>3回の無料画像翻訳</strong>が含まれます。'
+    },
     faq: { title: 'よくある質問' },
     download: { title: 'CamLingoをダウンロード' },
     footer: { privacy: 'プライバシーポリシー', terms: '利用規約', contact: 'サポートに連絡' },
@@ -113,7 +354,29 @@ const i18n = {
     nav: { features: '기능', pricing: '가격', faq: '자주 묻는 질문', download: '다운로드' },
     intro: { title: '<span class="accent">이미지</span>에서 언어 학습하기', subtitle: '사진을 찍고, 단어를 탭하여 즉시 번역, 예문, 발음을 얻으세요 – AI 기반.', button: '앱 받기' },
     features: { title: '주요 기능' },
-    pricing: { title: '가격' },
+    language: { search: '언어 검색...' },
+    pricing: { 
+      title: '가격',
+      weekly: {
+        name: '주간',
+        price: '₩1,900 / 주',
+        features: [
+          '하루 20회 이미지 번역',
+          '우선 AI 처리',
+          '언제든지 취소 가능'
+        ]
+      },
+      pro: {
+        name: '프로',
+        price: '₩6,900 / 월',
+        features: [
+          '하루 30회 이미지 번역',
+          '우선 AI 처리',
+          '새 기능 조기 액세스'
+        ]
+      },
+      note: '모든 새 계정에는 CamLingo를 체험할 수 있는 <strong>3회 무료 이미지 번역</strong>이 포함됩니다.'
+    },
     faq: { title: '자주 묻는 질문' },
     download: { title: 'CamLingo 다운로드' },
     footer: { privacy: '개인정보 처리방침', terms: '이용약관', contact: '지원팀 문의' },
@@ -123,7 +386,29 @@ const i18n = {
     nav: { features: 'Funktionen', pricing: 'Preise', faq: 'FAQ', download: 'Herunterladen' },
     intro: { title: 'Sprachen aus <span class="accent">Bildern</span> lernen', subtitle: 'Machen Sie ein Foto, tippen Sie auf ein Wort und erhalten Sie sofort Übersetzungen, Beispiele und Aussprache – KI-gestützt.', button: 'App herunterladen' },
     features: { title: 'Hauptfunktionen' },
-    pricing: { title: 'Preise' },
+    language: { search: 'Sprache suchen...' },
+    pricing: { 
+      title: 'Preise',
+      weekly: {
+        name: 'Wöchentlich',
+        price: '1,49 € / Woche',
+        features: [
+          '20 Bildübersetzungen pro Tag',
+          'Prioritäts-KI-Verarbeitung',
+          'Jederzeit kündbar'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '4,99 € / Monat',
+        features: [
+          '30 Bildübersetzungen pro Tag',
+          'Prioritäts-KI-Verarbeitung',
+          'Früher Zugang zu neuen Funktionen'
+        ]
+      },
+      note: 'Jedes neue Konto enthält <strong>3 kostenlose Bildübersetzungen</strong> zum Testen von CamLingo.'
+    },
     faq: { title: 'Häufig gestellte Fragen' },
     download: { title: 'CamLingo herunterladen' },
     footer: { privacy: 'Datenschutzrichtlinie', terms: 'Nutzungsbedingungen', contact: 'Support kontaktieren' },
@@ -133,7 +418,29 @@ const i18n = {
     nav: { features: 'Функции', pricing: 'Цены', faq: 'FAQ', download: 'Скачать' },
     intro: { title: 'Изучайте языки по <span class="accent">изображениям</span>', subtitle: 'Сделайте фото, нажмите на слово и получите мгновенные переводы, примеры и произношение – на базе ИИ.', button: 'Скачать приложение' },
     features: { title: 'Основные функции' },
-    pricing: { title: 'Цены' },
+    language: { search: 'Поиск языка...' },
+    pricing: { 
+      title: 'Цены',
+      weekly: {
+        name: 'Еженедельно',
+        price: '149 ₽ / неделя',
+        features: [
+          '20 переводов изображений в день',
+          'Приоритетная обработка ИИ',
+          'Отмена в любое время'
+        ]
+      },
+      pro: {
+        name: 'Про',
+        price: '499 ₽ / месяц',
+        features: [
+          '30 переводов изображений в день',
+          'Приоритетная обработка ИИ',
+          'Ранний доступ к новым функциям'
+        ]
+      },
+      note: 'Каждый новый аккаунт включает <strong>3 бесплатных перевода изображений</strong> для тестирования CamLingo.'
+    },
     faq: { title: 'Часто задаваемые вопросы' },
     download: { title: 'Скачать CamLingo' },
     footer: { privacy: 'Политика конфиденциальности', terms: 'Условия использования', contact: 'Связаться с поддержкой' },
@@ -143,7 +450,29 @@ const i18n = {
     nav: { features: 'Funzionalità', pricing: 'Prezzi', faq: 'FAQ', download: 'Scarica' },
     intro: { title: 'Impara le lingue dalle <span class="accent">immagini</span>', subtitle: 'Scatta una foto, tocca una parola e ottieni traduzioni, esempi e pronuncia istantanei – alimentato dall\'IA.', button: 'Scarica l\'app' },
     features: { title: 'Funzionalità principali' },
-    pricing: { title: 'Prezzi' },
+    language: { search: 'Cerca lingua...' },
+    pricing: { 
+      title: 'Prezzi',
+      weekly: {
+        name: 'Settimanale',
+        price: '1,49 € / settimana',
+        features: [
+          '20 traduzioni di immagini al giorno',
+          'Elaborazione IA prioritaria',
+          'Cancella in qualsiasi momento'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '4,99 € / mese',
+        features: [
+          '30 traduzioni di immagini al giorno',
+          'Elaborazione IA prioritaria',
+          'Accesso anticipato alle nuove funzionalità'
+        ]
+      },
+      note: 'Ogni nuovo account include <strong>3 traduzioni di immagini gratuite</strong> per provare CamLingo.'
+    },
     faq: { title: 'Domande frequenti' },
     download: { title: 'Scarica CamLingo' },
     footer: { privacy: 'Informativa sulla privacy', terms: 'Termini di utilizzo', contact: 'Contatta il supporto' },
@@ -153,7 +482,29 @@ const i18n = {
     nav: { features: 'Functies', pricing: 'Prijzen', faq: 'FAQ', download: 'Downloaden' },
     intro: { title: 'Leer talen uit <span class="accent">afbeeldingen</span>', subtitle: 'Maak een foto, tik op een woord en krijg direct vertalingen, voorbeelden en uitspraak – aangedreven door AI.', button: 'App downloaden' },
     features: { title: 'Hoofdfuncties' },
-    pricing: { title: 'Prijzen' },
+    language: { search: 'Taal zoeken...' },
+    pricing: { 
+      title: 'Prijzen',
+      weekly: {
+        name: 'Wekelijks',
+        price: '€1,49 / week',
+        features: [
+          '20 afbeeldingsvertalingen per dag',
+          'Prioritaire AI-verwerking',
+          'Op elk moment annuleren'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '€4,99 / maand',
+        features: [
+          '30 afbeeldingsvertalingen per dag',
+          'Prioritaire AI-verwerking',
+          'Vroege toegang tot nieuwe functies'
+        ]
+      },
+      note: 'Elk nieuw account bevat <strong>3 gratis afbeeldingsvertalingen</strong> om CamLingo te proberen.'
+    },
     faq: { title: 'Veelgestelde vragen' },
     download: { title: 'CamLingo downloaden' },
     footer: { privacy: 'Privacybeleid', terms: 'Gebruiksvoorwaarden', contact: 'Support contacten' },
@@ -163,7 +514,29 @@ const i18n = {
     nav: { features: 'الميزات', pricing: 'الأسعار', faq: 'الأسئلة الشائعة', download: 'تحميل' },
     intro: { title: 'تعلم اللغات من <span class="accent">الصور</span>', subtitle: 'التقط صورة، اضغط على كلمة واحصل على الترجمات والأمثلة والنطق فوراً – مدعوم بالذكاء الاصطناعي.', button: 'احصل على التطبيق' },
     features: { title: 'الميزات الرئيسية' },
-    pricing: { title: 'الأسعار' },
+    language: { search: 'البحث عن لغة...' },
+    pricing: { 
+      title: 'الأسعار',
+      weekly: {
+        name: 'أسبوعي',
+        price: '5.99 ريال / أسبوع',
+        features: [
+          '20 ترجمة صورة يومياً',
+          'معالجة ذكاء اصطناعي ذات أولوية',
+          'إلغاء في أي وقت'
+        ]
+      },
+      pro: {
+        name: 'احترافي',
+        price: '19.99 ريال / شهر',
+        features: [
+          '30 ترجمة صورة يومياً',
+          'معالجة ذكاء اصطناعي ذات أولوية',
+          'وصول مبكر للميزات الجديدة'
+        ]
+      },
+      note: 'كل حساب جديد يتضمن <strong>3 ترجمات صور مجانية</strong> لتجربة CamLingo.'
+    },
     faq: { title: 'الأسئلة الشائعة' },
     download: { title: 'تحميل CamLingo' },
     footer: { privacy: 'سياسة الخصوصية', terms: 'شروط الاستخدام', contact: 'اتصل بالدعم' },
@@ -173,7 +546,29 @@ const i18n = {
     nav: { features: 'सुविधाएं', pricing: 'मूल्य', faq: 'सामान्य प्रश्न', download: 'डाउनलोड' },
     intro: { title: '<span class="accent">छवियों</span> से भाषाएं सीखें', subtitle: 'फोटो लें, शब्द पर टैप करें और तुरंत अनुवाद, उदाहरण और उच्चारण प्राप्त करें – AI द्वारा संचालित।', button: 'ऐप प्राप्त करें' },
     features: { title: 'मुख्य सुविधाएं' },
-    pricing: { title: 'मूल्य' },
+    language: { search: 'भाषा खोजें...' },
+    pricing: { 
+      title: 'मूल्य',
+      weekly: {
+        name: 'साप्ताहिक',
+        price: '₹119 / सप्ताह',
+        features: [
+          'प्रति दिन 20 छवि अनुवाद',
+          'प्राथमिकता AI प्रसंस्करण',
+          'किसी भी समय रद्द करें'
+        ]
+      },
+      pro: {
+        name: 'प्रो',
+        price: '₹399 / महीना',
+        features: [
+          'प्रति दिन 30 छवि अनुवाद',
+          'प्राथमिकता AI प्रसंस्करण',
+          'नई सुविधाओं का पहले पहुंच'
+        ]
+      },
+      note: 'हर नए खाते में CamLingo को आज़माने के लिए <strong>3 मुफ्त छवि अनुवाद</strong> शामिल हैं।'
+    },
     faq: { title: 'सामान्य प्रश्न' },
     download: { title: 'CamLingo डाउनलोड करें' },
     footer: { privacy: 'गोपनीयता नीति', terms: 'उपयोग की शर्तें', contact: 'सहायता से संपर्क करें' },
@@ -183,7 +578,29 @@ const i18n = {
     nav: { features: 'คุณสมบัติ', pricing: 'ราคา', faq: 'คำถามที่พบบ่อย', download: 'ดาวน์โหลด' },
     intro: { title: 'เรียนรู้ภาษาจาก<span class="accent">รูปภาพ</span>', subtitle: 'ถ่ายภาพ แตะคำ และรับการแปล ตัวอย่าง และการออกเสียงทันที – ขับเคลื่อนด้วย AI', button: 'รับแอป' },
     features: { title: 'คุณสมบัติหลัก' },
-    pricing: { title: 'ราคา' },
+    language: { search: 'ค้นหาภาษา...' },
+    pricing: { 
+      title: 'ราคา',
+      weekly: {
+        name: 'รายสัปดาห์',
+        price: '฿49 / สัปดาห์',
+        features: [
+          'แปลภาพ 20 ครั้งต่อวัน',
+          'ประมวลผล AI ลำดับแรก',
+          'ยกเลิกได้ทุกเมื่อ'
+        ]
+      },
+      pro: {
+        name: 'โปร',
+        price: '฿169 / เดือน',
+        features: [
+          'แปลภาพ 30 ครั้งต่อวัน',
+          'ประมวลผล AI ลำดับแรก',
+          'เข้าถึงฟีเจอร์ใหม่ก่อนใคร'
+        ]
+      },
+      note: 'บัญชีใหม่ทุกบัญชีมี <strong>การแปลภาพฟรี 3 ครั้ง</strong> เพื่อทดลองใช้ CamLingo'
+    },
     faq: { title: 'คำถามที่พบบ่อย' },
     download: { title: 'ดาวน์โหลด CamLingo' },
     footer: { privacy: 'นโยบายความเป็นส่วนตัว', terms: 'ข้อกำหนดการใช้งาน', contact: 'ติดต่อฝ่ายสนับสนุน' },
@@ -193,7 +610,29 @@ const i18n = {
     nav: { features: 'Tính năng', pricing: 'Giá cả', faq: 'Câu hỏi thường gặp', download: 'Tải xuống' },
     intro: { title: 'Học ngôn ngữ từ <span class="accent">hình ảnh</span>', subtitle: 'Chụp ảnh, chạm vào từ và nhận bản dịch, ví dụ và phát âm ngay lập tức – được hỗ trợ bởi AI.', button: 'Tải ứng dụng' },
     features: { title: 'Tính năng chính' },
-    pricing: { title: 'Giá cả' },
+    language: { search: 'Tìm kiếm ngôn ngữ...' },
+    pricing: { 
+      title: 'Giá cả',
+      weekly: {
+        name: 'Hàng tuần',
+        price: '35.000₫ / tuần',
+        features: [
+          '20 bản dịch hình ảnh mỗi ngày',
+          'Xử lý AI ưu tiên',
+          'Hủy bất cứ lúc nào'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '119.000₫ / tháng',
+        features: [
+          '30 bản dịch hình ảnh mỗi ngày',
+          'Xử lý AI ưu tiên',
+          'Truy cập sớm các tính năng mới'
+        ]
+      },
+      note: 'Mỗi tài khoản mới bao gồm <strong>3 bản dịch hình ảnh miễn phí</strong> để thử CamLingo.'
+    },
     faq: { title: 'Câu hỏi thường gặp' },
     download: { title: 'Tải xuống CamLingo' },
     footer: { privacy: 'Chính sách bảo mật', terms: 'Điều khoản sử dụng', contact: 'Liên hệ hỗ trợ' },
@@ -203,7 +642,29 @@ const i18n = {
     nav: { features: 'Özellikler', pricing: 'Fiyatlandırma', faq: 'SSS', download: 'İndir' },
     intro: { title: '<span class="accent">Görsellerden</span> dil öğrenin', subtitle: 'Fotoğraf çekin, kelimeye dokunun ve anında çeviri, örnekler ve telaffuz alın – AI destekli.', button: 'Uygulamayı al' },
     features: { title: 'Ana özellikler' },
-    pricing: { title: 'Fiyatlandırma' },
+    language: { search: 'Dil ara...' },
+    pricing: { 
+      title: 'Fiyatlandırma',
+      weekly: {
+        name: 'Haftalık',
+        price: '₺44,99 / hafta',
+        features: [
+          'Günde 20 görsel çeviri',
+          'Öncelikli AI işleme',
+          'İstediğiniz zaman iptal edin'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '₺149,99 / ay',
+        features: [
+          'Günde 30 görsel çeviri',
+          'Öncelikli AI işleme',
+          'Yeni özelliklere erken erişim'
+        ]
+      },
+      note: 'Her yeni hesap CamLingo\'yu denemek için <strong>3 ücretsiz görsel çeviri</strong> içerir.'
+    },
     faq: { title: 'Sık sorulan sorular' },
     download: { title: 'CamLingo indir' },
     footer: { privacy: 'Gizlilik politikası', terms: 'Kullanım şartları', contact: 'Destek ile iletişim' },
@@ -213,7 +674,29 @@ const i18n = {
     nav: { features: 'Funkcje', pricing: 'Cennik', faq: 'FAQ', download: 'Pobierz' },
     intro: { title: 'Ucz się języków z <span class="accent">obrazów</span>', subtitle: 'Zrób zdjęcie, dotknij słowo i otrzymaj natychmiastowe tłumaczenia, przykłady i wymowę – napędzane AI.', button: 'Pobierz aplikację' },
     features: { title: 'Główne funkcje' },
-    pricing: { title: 'Cennik' },
+    language: { search: 'Szukaj języka...' },
+    pricing: { 
+      title: 'Cennik',
+      weekly: {
+        name: 'Tygodniowy',
+        price: '6,99 zł / tydzień',
+        features: [
+          '20 tłumaczeń obrazów dziennie',
+          'Priorytetowe przetwarzanie AI',
+          'Anuluj w dowolnym momencie'
+        ]
+      },
+      pro: {
+        name: 'Pro',
+        price: '22,99 zł / miesiąc',
+        features: [
+          '30 tłumaczeń obrazów dziennie',
+          'Priorytetowe przetwarzanie AI',
+          'Wczesny dostęp do nowych funkcji'
+        ]
+      },
+      note: 'Każde nowe konto zawiera <strong>3 darmowe tłumaczenia obrazów</strong> do wypróbowania CamLingo.'
+    },
     faq: { title: 'Często zadawane pytania' },
     download: { title: 'Pobierz CamLingo' },
     footer: { privacy: 'Polityka prywatności', terms: 'Warunki użytkowania', contact: 'Skontaktuj się z pomocą techniczną' },
@@ -256,6 +739,12 @@ function updatePageText(lang) {
     }
   });
 
+  // 更新搜索框占位符
+  const languageSearch = document.getElementById('languageSearch');
+  if (languageSearch && config.language && config.language.search) {
+    languageSearch.placeholder = config.language.search;
+  }
+
   // 更新页面标题
   document.title = config.title || 'CamLingo';
   
@@ -274,10 +763,10 @@ function changeLanguage(lang) {
   // 保存语言偏好到 localStorage
   localStorage.setItem('preferredLanguage', lang);
   
-  // 更新语言选择器
-  const select = document.getElementById('languageSelect');
-  if (select) {
-    select.value = lang;
+  // 更新SEO meta标签
+  const config = i18n[lang];
+  if (config) {
+    updateSEOMetaTags(lang, config);
   }
 }
 

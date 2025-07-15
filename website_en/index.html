@@ -69,11 +69,21 @@
   <link rel="alternate" hreflang="x-default" href="https://mrvincent2025.github.io/camlingo-support/website_en/" />
   
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/android-chrome-512x512.png" />
+  <!-- Web manifest - only load when served from HTTP/HTTPS -->
+  <script>
+    if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+      const link = document.createElement('link');
+      link.rel = 'manifest';
+      link.href = 'site.webmanifest';
+      document.head.appendChild(link);
+    }
+  </script>
   
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css" />
@@ -194,38 +204,54 @@
     <div class="container">
       <nav class="navbar">
         <div class="logo">Cam<span class="accent">Lingo</span></div>
-        <div class="language-selector">
-          <select id="languageSelect" onchange="changeLanguage(this.value)">
-            <option value="en-US">English (US)</option>
-            <option value="en-GB">English (UK)</option>
-            <option value="zh-CN">简体中文</option>
-            <option value="zh-TW">繁體中文</option>
-            <option value="es-ES">Español (España)</option>
-            <option value="es-MX">Español (México)</option>
-            <option value="fr-FR">Français (France)</option>
-            <option value="fr-CA">Français (Canada)</option>
-            <option value="pt-PT">Português (Portugal)</option>
-            <option value="pt-BR">Português (Brasil)</option>
-            <option value="ja">日本語</option>
-            <option value="ko">한국어</option>
-            <option value="de">Deutsch</option>
-            <option value="ru">Русский</option>
-            <option value="it">Italiano</option>
-            <option value="nl">Nederlands</option>
-            <option value="ar">العربية</option>
-            <option value="hi">हिन्दी</option>
-            <option value="th">ไทย</option>
-            <option value="vi">Tiếng Việt</option>
-            <option value="tr">Türkçe</option>
-            <option value="pl">Polski</option>
-          </select>
-        </div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="navLinks">
           <li><a href="#features" data-i18n="nav.features">Features</a></li>
           <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
           <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
           <li><a href="#download" class="cta" data-i18n="nav.download">Download</a></li>
         </ul>
+        <div class="language-selector">
+          <button class="language-btn" id="languageBtn" aria-haspopup="true" aria-expanded="false">
+            <span class="language-btn-text" id="languageBtnText">English (US)</span>
+            <svg class="language-btn-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="language-dropdown" id="languageDropdown">
+            <div class="language-search">
+              <input type="text" id="languageSearch" placeholder="Search language..." data-i18n-placeholder="language.search" />
+            </div>
+            <div class="language-list" id="languageList">
+              <button class="language-option" data-value="en-US" data-native="English (US)">English (US)</button>
+              <button class="language-option" data-value="en-GB" data-native="English (UK)">English (UK)</button>
+              <button class="language-option" data-value="zh-CN" data-native="简体中文">简体中文</button>
+              <button class="language-option" data-value="zh-TW" data-native="繁體中文">繁體中文</button>
+              <button class="language-option" data-value="es-ES" data-native="Español (España)">Español (España)</button>
+              <button class="language-option" data-value="es-MX" data-native="Español (México)">Español (México)</button>
+              <button class="language-option" data-value="fr-FR" data-native="Français (France)">Français (France)</button>
+              <button class="language-option" data-value="fr-CA" data-native="Français (Canada)">Français (Canada)</button>
+              <button class="language-option" data-value="pt-PT" data-native="Português (Portugal)">Português (Portugal)</button>
+              <button class="language-option" data-value="pt-BR" data-native="Português (Brasil)">Português (Brasil)</button>
+              <button class="language-option" data-value="ja" data-native="日本語">日本語</button>
+              <button class="language-option" data-value="ko" data-native="한국어">한국어</button>
+              <button class="language-option" data-value="de" data-native="Deutsch">Deutsch</button>
+              <button class="language-option" data-value="ru" data-native="Русский">Русский</button>
+              <button class="language-option" data-value="it" data-native="Italiano">Italiano</button>
+              <button class="language-option" data-value="nl" data-native="Nederlands">Nederlands</button>
+              <button class="language-option" data-value="ar" data-native="العربية">العربية</button>
+              <button class="language-option" data-value="hi" data-native="हिन्दी">हिन्दी</button>
+              <button class="language-option" data-value="th" data-native="ไทย">ไทย</button>
+              <button class="language-option" data-value="vi" data-native="Tiếng Việt">Tiếng Việt</button>
+              <button class="language-option" data-value="tr" data-native="Türkçe">Türkçe</button>
+              <button class="language-option" data-value="pl" data-native="Polski">Polski</button>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu-toggle" id="mobileMenuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </div>
   </header>

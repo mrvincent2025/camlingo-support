@@ -242,11 +242,8 @@
     // Save to localStorage
     localStorage.setItem('camlingo-language', lang);
     
-    // Update language selector if it exists
-    const languageSelect = document.getElementById('languageSelect');
-    if (languageSelect) {
-      languageSelect.value = lang;
-    }
+    // Update language selector display
+    updateLanguageSelector(lang);
 
     // Update page content if i18n is loaded
     if (typeof changeLanguage === 'function') {
@@ -277,6 +274,170 @@
     initLanguageDetection();
   }
 
+  // Mobile menu functionality
+  function initMobileMenu() {
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const navLinks = document.getElementById('navLinks');
+    
+    if (mobileMenuToggle && navLinks) {
+      mobileMenuToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        mobileMenuToggle.classList.toggle('active');
+      });
+      
+      // Close menu when clicking on a link
+      const navLinksItems = navLinks.querySelectorAll('a');
+      navLinksItems.forEach(link => {
+        link.addEventListener('click', function() {
+          navLinks.classList.remove('active');
+          mobileMenuToggle.classList.remove('active');
+        });
+      });
+      
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!mobileMenuToggle.contains(event.target) && !navLinks.contains(event.target)) {
+          navLinks.classList.remove('active');
+          mobileMenuToggle.classList.remove('active');
+        }
+      });
+    }
+  }
+
+  // Smooth scrolling for anchor links
+  function initSmoothScrolling() {
+    const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          const offsetTop = targetElement.offsetTop - 80; // Account for fixed header
+          window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  }
+
+  // Initialize language selector functionality
+  function initLanguageSelector() {
+    const languageBtn = document.getElementById('languageBtn');
+    const languageDropdown = document.getElementById('languageDropdown');
+    const languageBtnText = document.getElementById('languageBtnText');
+    const languageSearch = document.getElementById('languageSearch');
+    const languageOptions = document.querySelectorAll('.language-option');
+    
+    if (!languageBtn || !languageDropdown) return;
+    
+    // Toggle dropdown
+    languageBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const isExpanded = languageBtn.getAttribute('aria-expanded') === 'true';
+      languageBtn.setAttribute('aria-expanded', !isExpanded);
+      languageDropdown.classList.toggle('active');
+      
+      if (!isExpanded) {
+        languageSearch.focus();
+      }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!languageBtn.contains(e.target) && !languageDropdown.contains(e.target)) {
+        languageBtn.setAttribute('aria-expanded', 'false');
+        languageDropdown.classList.remove('active');
+      }
+    });
+    
+    // Handle language selection
+    languageOptions.forEach(option => {
+      option.addEventListener('click', function() {
+        const value = this.getAttribute('data-value');
+        const nativeName = this.getAttribute('data-native');
+        
+        // Update button text
+        languageBtnText.textContent = nativeName;
+        
+        // Update selected state
+        languageOptions.forEach(opt => opt.classList.remove('selected'));
+        this.classList.add('selected');
+        
+        // Close dropdown
+        languageBtn.setAttribute('aria-expanded', 'false');
+        languageDropdown.classList.remove('active');
+        
+        // Change language
+        setLanguage(value);
+      });
+    });
+    
+    // Handle search functionality
+    languageSearch.addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase();
+      
+      languageOptions.forEach(option => {
+        const text = option.textContent.toLowerCase();
+        const nativeName = option.getAttribute('data-native').toLowerCase();
+        
+        if (text.includes(searchTerm) || nativeName.includes(searchTerm)) {
+          option.classList.remove('hidden');
+        } else {
+          option.classList.add('hidden');
+        }
+      });
+    });
+    
+    // Handle keyboard navigation
+    languageSearch.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        languageBtn.setAttribute('aria-expanded', 'false');
+        languageDropdown.classList.remove('active');
+        languageBtn.focus();
+      }
+    });
+  }
+  
+  // Update language selector display
+  function updateLanguageSelector(lang) {
+    const languageBtnText = document.getElementById('languageBtnText');
+    const languageOptions = document.querySelectorAll('.language-option');
+    const languageSearch = document.getElementById('languageSearch');
+    
+    if (languageBtnText) {
+      const selectedOption = document.querySelector(`[data-value="${lang}"]`);
+      if (selectedOption) {
+        languageBtnText.textContent = selectedOption.getAttribute('data-native');
+        
+        // Update selected state
+        languageOptions.forEach(opt => opt.classList.remove('selected'));
+        selectedOption.classList.add('selected');
+      }
+    }
+    
+    // Update search placeholder
+    if (languageSearch && typeof i18n !== 'undefined' && i18n[lang] && i18n[lang].language) {
+      languageSearch.placeholder = i18n[lang].language.search || 'Search language...';
+    }
+  }
+
+  // Initialize all functionality when DOM is loaded
+  function initAll() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAll);
+      return;
+    }
+
+    initLanguageDetection();
+    initLanguageSelector();
+    initMobileMenu();
+    initSmoothScrolling();
+  }
+
   // Expose functions globally for external use
   window.CamLingoLanguage = {
     detectLanguage,
@@ -284,4 +445,6 @@
     supportedLanguages
   };
 
+  // Start initialization
+  initAll();
 })(); 

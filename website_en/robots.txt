@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# 允许抓取所有页面
+# 包括多语言版本的页面
+
+# 指定网站地图位置
+Sitemap: https://camlingo-website.pages.dev/sitemap.xml
+
+# 可选：禁止抓取特定文件类型（如果需要）
+# Disallow: /*.pdf$
+# Disallow: /*.doc$
+# Disallow: /*.docx$
+
+# 可选：禁止抓取特定目录（如果需要）
+# Disallow: /admin/
+# Disallow: /private/
+
+# 爬取延迟（可选，单位为秒）
+# Crawl-delay: 1 

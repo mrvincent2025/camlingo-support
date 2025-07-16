@@ -2,16 +2,12 @@
 const i18n = {
   'en-US': {
     nav: { features: 'Features', pricing: 'Pricing', faq: 'FAQ', download: 'Download' },
-    intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Snap a photo, tap a word and see instant translations, examples and pronunciation – powered by AI.', button: 'Get the App' },
+    intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Contextual memory is the best way to learn vocabulary!', button: 'Get the App' },
     features: { 
       title: 'Key Features',
       snap: {
         title: 'Snap & Translate',
-        desc: 'Use your camera to capture any text. Our AI engine detects words and delivers accurate translations in seconds.'
-      },
-      visual: {
-        title: 'Visual Vocabulary Builder', 
-        desc: 'Tap on individual words to view pronunciation, example sentences and save them to your personal list.'
+        desc: 'Use your camera to capture any scene or object. We help you identify objects in the scene and teach you the writing and pronunciation in the language you want to learn.'
       },
       history: {
         title: 'History & Review',
@@ -92,22 +88,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy.html' },
     seo: {
       title: 'CamLingo – Learn Any Language from Pictures | AI-Powered Translation App',
-      description: 'Snap a photo, tap a word and see instant translations, examples and pronunciation. Learn 22 languages with AI-powered visual translation. Download CamLingo for iPhone and iPad.',
+      description: 'Contextual memory is the best way to learn vocabulary! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'language learning, translation app, AI translation, visual translation, photo translation, language app, multilingual, OCR translation, camera translation, learn languages, foreign language, language tutor, translation tool, mobile language learning, iOS language app, picture translation, text recognition, language dictionary, pronunciation guide, vocabulary builder'
     }
   },
   'en-GB': {
     nav: { features: 'Features', pricing: 'Pricing', faq: 'FAQ', download: 'Download' },
-    intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Snap a photo, tap a word and see instant translations, examples and pronunciation – powered by AI.', button: 'Get the App' },
+    intro: { title: 'Learn Any Language from <span class="accent">Pictures</span>', subtitle: 'Contextual memory is the best way to learn vocabulary!', button: 'Get the App' },
     features: { 
       title: 'Key Features',
       snap: {
         title: 'Snap & Translate',
-        desc: 'Use your camera to capture any text. Our AI engine detects words and delivers accurate translations in seconds.'
-      },
-      visual: {
-        title: 'Visual Vocabulary Builder', 
-        desc: 'Tap on individual words to view pronunciation, example sentences and save them to your personal list.'
+        desc: 'Use your camera to capture any scene or object. We help you identify objects in the scene and teach you the writing and pronunciation in the language you want to learn.'
       },
       history: {
         title: 'History & Review',
@@ -188,22 +180,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-en-uk.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-en-gb.html' },
     seo: {
       title: 'CamLingo – Learn Any Language from Pictures | AI-Powered Translation App',
-      description: 'Snap a photo, tap a word and see instant translations, examples and pronunciation. Learn 22 languages with AI-powered visual translation. Download CamLingo for iPhone and iPad.',
+      description: 'Contextual memory is the best way to learn vocabulary! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'language learning, translation app, AI translation, visual translation, photo translation, language app, multilingual, OCR translation, camera translation, learn languages, foreign language, language tutor, translation tool, mobile language learning, iOS language app, picture translation, text recognition, language dictionary, pronunciation guide, vocabulary builder'
     }
   },
   'zh-CN': {
     nav: { features: '功能特色', pricing: '价格', faq: '常见问题', download: '下载' },
-    intro: { title: '从<span class="accent">图片</span>学习任何语言', subtitle: '拍照、点击单词，立即获得翻译、例句和发音 – 由AI驱动。', button: '获取应用' },
+    intro: { title: '从<span class="accent">图片</span>学习任何语言', subtitle: '生活化的情景记忆是最好的单词学习方式！', button: '获取应用' },
     features: { 
       title: '核心功能',
       snap: {
         title: '拍照翻译',
-        desc: '使用相机拍摄任何文字。我们的AI引擎检测单词并在几秒钟内提供准确的翻译。'
-      },
-      visual: {
-        title: '视觉词汇构建器', 
-        desc: '点击单个单词查看发音、例句并将其保存到您的个人列表中。'
+        desc: '使用相机拍摄任何场景或物体，我们来帮你识别场景中的物体，并教你想要学习的语言的书写和发音'
       },
       history: {
         title: '历史记录与复习',
@@ -284,22 +272,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-zh-cn.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-zh-cn.html' },
     seo: {
       title: 'CamLingo – 从图片学习任何语言 | AI驱动的翻译应用',
-      description: '拍照、点击单词，立即获得翻译、例句和发音。通过AI驱动的视觉翻译技术学习22种语言。下载CamLingo，支持iPhone和iPad。',
+      description: '生活化的情景记忆是最好的单词学习方式！通过AI驱动的视觉翻译技术学习22种语言。下载CamLingo，支持iPhone和iPad。',
       keywords: '语言学习,翻译应用,AI翻译,视觉翻译,拍照翻译,语言应用,多语言,OCR翻译,相机翻译,学习语言,外语,语言导师,翻译工具,移动语言学习,iOS语言应用,图片翻译,文字识别,语言词典,发音指南,词汇构建'
     }
   },
   'zh-TW': {
     nav: { features: '功能特色', pricing: '價格', faq: '常見問題', download: '下載' },
-    intro: { title: '從<span class="accent">圖片</span>學習任何語言', subtitle: '拍照、點擊單詞，立即獲得翻譯、例句和發音 – 由AI驅動。', button: '獲取應用' },
+    intro: { title: '從<span class="accent">圖片</span>學習任何語言', subtitle: '生活化的情景記憶是最好的單詞學習方式！', button: '獲取應用' },
     features: { 
       title: '核心功能',
       snap: {
         title: '拍照翻譯',
-        desc: '使用相機拍攝任何文字。我們的AI引擎檢測單詞並在幾秒鐘內提供準確的翻譯。'
-      },
-      visual: {
-        title: '視覺詞彙構建器', 
-        desc: '點擊單個單詞查看發音、例句並將其保存到您的個人列表中。'
+        desc: '使用相機拍攝任何場景或物體，我們來幫你識別場景中的物體，並教你想要學習的語言的書寫和發音'
       },
       history: {
         title: '歷史記錄與複習',
@@ -380,22 +364,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-zh-tw.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-zh-tw.html' },
     seo: {
       title: 'CamLingo – 從圖片學習任何語言 | AI驅動的翻譯應用',
-      description: '拍照、點擊單詞，立即獲得翻譯、例句和發音。通過AI驅動的視覺翻譯技術學習22種語言。下載CamLingo，支援iPhone和iPad。',
+      description: '生活化的情景記憶是最好的單詞學習方式！通過AI驅動的視覺翻譯技術學習22種語言。下載CamLingo，支援iPhone和iPad。',
       keywords: '語言學習,翻譯應用,AI翻譯,視覺翻譯,拍照翻譯,語言應用,多語言,OCR翻譯,相機翻譯,學習語言,外語,語言導師,翻譯工具,移動語言學習,iOS語言應用,圖片翻譯,文字識別,語言詞典,發音指南,詞彙構建'
     }
   },
   'es-ES': {
     nav: { features: 'Características', pricing: 'Precios', faq: 'Preguntas frecuentes', download: 'Descargar' },
-    intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: 'Toma una foto, toca una palabra y obtén traducciones, ejemplos y pronunciación instantáneamente – impulsado por IA.', button: 'Obtener la app' },
+    intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: '¡La memoria contextual es la mejor manera de aprender vocabulario!', button: 'Obtener la app' },
     features: { 
       title: 'Características principales',
       snap: {
         title: 'Captura y Traduce',
-        desc: 'Usa tu cámara para capturar cualquier texto. Nuestro motor de IA detecta palabras y entrega traducciones precisas en segundos.'
-      },
-      visual: {
-        title: 'Constructor de Vocabulario Visual', 
-        desc: 'Toca palabras individuales para ver pronunciación, oraciones de ejemplo y guárdalas en tu lista personal.'
+        desc: 'Usa tu cámara para capturar cualquier escena u objeto. Te ayudamos a identificar objetos en la escena y te enseñamos la escritura y pronunciación en el idioma que quieres aprender.'
       },
       history: {
         title: 'Historial y Repaso',
@@ -482,16 +462,12 @@ const i18n = {
   },
   'es-MX': {
     nav: { features: 'Características', pricing: 'Precios', faq: 'Preguntas frecuentes', download: 'Descargar' },
-    intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: 'Toma una foto, toca una palabra y obtén traducciones, ejemplos y pronunciación instantáneamente – impulsado por IA.', button: 'Obtener la app' },
+    intro: { title: 'Aprende idiomas desde <span class="accent">imágenes</span>', subtitle: '¡La memoria contextual es la mejor manera de aprender vocabulario!', button: 'Obtener la app' },
     features: { 
       title: 'Características principales',
       snap: {
         title: 'Captura y Traduce',
-        desc: 'Usa tu cámara para capturar cualquier texto. Nuestro motor de IA detecta palabras y entrega traducciones precisas en segundos.'
-      },
-      visual: {
-        title: 'Constructor de Vocabulario Visual', 
-        desc: 'Toca palabras individuales para ver pronunciación, oraciones de ejemplo y guárdalas en tu lista personal.'
+        desc: 'Usa tu cámara para capturar cualquier escena u objeto. Te ayudamos a identificar objetos en la escena y te enseñamos la escritura y pronunciación en el idioma que quieres aprender.'
       },
       history: {
         title: 'Historial y Repaso',
@@ -571,22 +547,18 @@ const i18n = {
     },
     seo: {
       title: 'CamLingo – Aprende idiomas desde imágenes | App de traducción con IA',
-      description: 'Toma una foto, toca una palabra y obtén traducciones, ejemplos y pronunciación instantáneamente. Aprende 22 idiomas con traducción visual impulsada por IA. Descarga CamLingo para iPhone e iPad.',
+      description: '¡La memoria contextual es la mejor manera de aprender vocabulario! Aprende 22 idiomas con tecnología de traducción visual impulsada por IA. Descarga CamLingo para iPhone e iPad.',
       keywords: 'aprendizaje de idiomas, aplicación de traducción, traducción con IA, traducción visual, traducción de fotos, aplicación de idiomas, multilingüe, traducción OCR, traducción de cámara, aprender idiomas, idioma extranjero, tutor de idiomas, herramienta de traducción, aprendizaje de idiomas móvil, aplicación de idiomas iOS, traducción de imágenes, reconocimiento de texto, diccionario de idiomas, guía de pronunciación, constructor de vocabulario'
     }
   },
   'fr-FR': {
     nav: { features: 'Fonctionnalités', pricing: 'Tarifs', faq: 'FAQ', download: 'Télécharger' },
-    intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'Prenez une photo, tapez sur un mot et obtenez instantanément des traductions, des exemples et la prononciation – alimenté par l\'IA.', button: 'Obtenir l\'app' },
+    intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'La mémoire contextuelle est la meilleure façon d\'apprendre le vocabulaire !', button: 'Obtenir l\'app' },
     features: { 
       title: 'Fonctionnalités principales',
       snap: {
         title: 'Capturer et Traduire',
-        desc: 'Utilisez votre caméra pour capturer n\'importe quel texte. Notre moteur IA détecte les mots et livre des traductions précises en quelques secondes.'
-      },
-      visual: {
-        title: 'Constructeur de Vocabulaire Visuel', 
-        desc: 'Tapez sur des mots individuels pour voir la prononciation, les phrases d\'exemple et les sauvegarder dans votre liste personnelle.'
+        desc: 'Utilisez votre caméra pour capturer n\'importe quelle scène ou objet. Nous vous aidons à identifier les objets dans la scène et vous enseignons l\'écriture et la prononciation dans la langue que vous voulez apprendre.'
       },
       history: {
         title: 'Historique et Révision',
@@ -667,22 +639,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-fr-fr.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-fr-fr.html' },
     seo: {
       title: 'CamLingo – Apprendre les langues à partir d\'images | App de traduction IA',
-      description: 'Prenez une photo, tapez sur un mot et obtenez instantanément des traductions, des exemples et la prononciation. Apprenez 22 langues avec la traduction visuelle alimentée par l\'IA. Téléchargez CamLingo pour iPhone et iPad.',
+      description: 'La mémoire contextuelle est la meilleure façon d\'apprendre le vocabulaire ! Apprenez 22 langues avec la technologie de traduction visuelle alimentée par l\'IA. Téléchargez CamLingo pour iPhone et iPad.',
       keywords: 'apprentissage des langues, application de traduction, traduction IA, traduction visuelle, traduction de photos, application de langues, multilingue, traduction OCR, traduction de caméra, apprendre les langues, langue étrangère, tuteur de langues, outil de traduction, apprentissage des langues mobiles, application de langues iOS, traduction d\'images, reconnaissance de texte, dictionnaire de langues, guide de prononciation, constructeur de vocabulaire'
     }
   },
   'fr-CA': {
     nav: { features: 'Fonctionnalités', pricing: 'Tarifs', faq: 'FAQ', download: 'Télécharger' },
-    intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'Prenez une photo, tapez sur un mot et obtenez instantanément des traductions, des exemples et la prononciation – alimenté par l\'IA.', button: 'Obtenir l\'app' },
+    intro: { title: 'Apprendre les langues à partir d\'<span class="accent">images</span>', subtitle: 'La mémoire contextuelle est la meilleure façon d\'apprendre le vocabulaire !', button: 'Obtenir l\'app' },
     features: { 
       title: 'Fonctionnalités principales',
       snap: {
         title: 'Capturer et Traduire',
-        desc: 'Utilisez votre caméra pour capturer n\'importe quel texte. Notre moteur IA détecte les mots et livre des traductions précises en quelques secondes.'
-      },
-      visual: {
-        title: 'Constructeur de Vocabulaire Visuel', 
-        desc: 'Tapez sur des mots individuels pour voir la prononciation, les phrases d\'exemple et les sauvegarder dans votre liste personnelle.'
+        desc: 'Utilisez votre caméra pour capturer n\'importe quelle scène ou objet. Nous vous aidons à identifier les objets dans la scène et vous enseignons l\'écriture et la prononciation dans la langue que vous voulez apprendre.'
       },
       history: {
         title: 'Historique et Révision',
@@ -768,16 +736,12 @@ const i18n = {
   },
   'pt-PT': {
     nav: { features: 'Características', pricing: 'Preços', faq: 'Perguntas frequentes', download: 'Transferir' },
-    intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'Tire uma foto, toque numa palavra e obtenha traduções, exemplos e pronúncia instantâneos – alimentado por IA.', button: 'Obter a app' },
+    intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'A memória contextual é a melhor forma de aprender vocabulário!', button: 'Obter a app' },
     features: { 
       title: 'Características principais',
       snap: {
         title: 'Capturar e Traduzir',
-        desc: 'Use a sua câmara para capturar qualquer texto. O nosso motor de IA deteta palavras e entrega traduções precisas em segundos.'
-      },
-      visual: {
-        title: 'Construtor de Vocabulário Visual', 
-        desc: 'Toque em palavras individuais para ver pronúncia, frases de exemplo e guarde-as na sua lista pessoal.'
+        desc: 'Use a sua câmara para capturar qualquer cena ou objeto. Ajudamos a identificar objetos na cena e ensinamos a escrita e pronúncia na língua que quer aprender.'
       },
       history: {
         title: 'Histórico e Revisão',
@@ -858,22 +822,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-pt-pt.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-pt-pt.html' },
     seo: {
       title: 'CamLingo – Aprenda idiomas a partir de imagens | App de tradução alimentada por IA',
-      description: 'Tire uma foto, toque numa palavra e obtenha traduções, exemplos e pronúncia instantâneos. Aprenda 22 idiomas com tradução visual alimentada por IA. Transfira CamLingo para iPhone e iPad.',
+      description: 'A memória contextual é a melhor forma de aprender vocabulário! Aprenda 22 idiomas com tecnologia de tradução visual alimentada por IA. Baixe CamLingo para iPhone e iPad.',
       keywords: 'aprendizagem de idiomas, aplicação de tradução, tradução IA, tradução visual, tradução de fotos, aplicação de idiomas, multilingue, tradução OCR, tradução de câmara, aprender idiomas, idioma estrangeiro, tutor de idiomas, ferramenta de tradução, aprendizagem de idiomas móvel, aplicação de idiomas iOS, tradução de imagens, reconhecimento de texto, dicionário de idiomas, guia de pronúncia, construtor de vocabulário'
     }
   },
   'pt-BR': {
     nav: { features: 'Recursos', pricing: 'Preços', faq: 'Perguntas frequentes', download: 'Baixar' },
-    intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'Tire uma foto, toque em uma palavra e obtenha traduções, exemplos e pronúncia instantâneos – alimentado por IA.', button: 'Obter o app' },
+    intro: { title: 'Aprenda idiomas a partir de <span class="accent">imagens</span>', subtitle: 'A memória contextual é a melhor forma de aprender vocabulário!', button: 'Obter o app' },
     features: { 
       title: 'Recursos principais',
       snap: {
         title: 'Capturar e Traduzir',
-        desc: 'Use sua câmera para capturar qualquer texto. Nosso motor de IA detecta palavras e entrega traduções precisas em segundos.'
-      },
-      visual: {
-        title: 'Construtor de Vocabulário Visual', 
-        desc: 'Toque em palavras individuais para ver pronúncia, frases de exemplo e salve-as na sua lista pessoal.'
+        desc: 'Use sua câmera para capturar qualquer cena ou objeto. Ajudamos a identificar objetos na cena e ensinamos a escrita e pronúncia na língua que você quer aprender.'
       },
       history: {
         title: 'Histórico e Revisão',
@@ -954,22 +914,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-pt-br.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-pt-br.html' },
     seo: {
       title: 'CamLingo – Aprenda idiomas a partir de imagens | App de tradução alimentada por IA',
-      description: 'Tire uma foto, toque em uma palavra e obtenha traduções, exemplos e pronúncia instantâneos. Aprenda 22 idiomas com tradução visual alimentada por IA. Baixe CamLingo para iPhone e iPad.',
+      description: 'A memória contextual é a melhor forma de aprender vocabulário! Aprenda 22 idiomas com tecnologia de tradução visual alimentada por IA. Baixe CamLingo para iPhone e iPad.',
       keywords: 'aprendizagem de idiomas, aplicativo de tradução, tradução IA, tradução visual, tradução de fotos, aplicativo de idiomas, multilíngue, tradução OCR, tradução de câmera, aprender idiomas, idioma estrangeiro, tutor de idiomas, ferramenta de tradução, aprendizado de idiomas móvel, aplicativo de idiomas iOS, tradução de imagens, reconhecimento de texto, dicionário de idiomas, guia de pronúncia, construtor de vocabulário'
     }
   },
   'ja': {
     nav: { features: '機能', pricing: '料金', faq: 'よくある質問', download: 'ダウンロード' },
-    intro: { title: '<span class="accent">画像</span>から言語を学ぶ', subtitle: '写真を撮り、単語をタップして、翻訳、例文、発音を即座に取得 – AI搭載。', button: 'アプリを入手' },
+    intro: { title: '<span class="accent">画像</span>から言語を学ぶ', subtitle: '文脈記憶は語彙を学ぶ最良の方法です！', button: 'アプリを入手' },
     features: { 
       title: '主要機能',
       snap: {
         title: '撮影＆翻訳',
-        desc: 'カメラを使って任意のテキストをキャプチャします。AIエンジンが単語を検出し、数秒で正確な翻訳を提供します。'
-      },
-      visual: {
-        title: '視覚的語彙ビルダー', 
-        desc: '個別の単語をタップして発音、例文を表示し、個人リストに保存します。'
+        desc: 'カメラでシーンやオブジェクトを撮影します。シーン内のオブジェクトを識別し、学習したい言語での書き方と発音を教えます。'
       },
       history: {
         title: '履歴と復習',
@@ -1050,22 +1006,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ja.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ja.html' },
     seo: {
       title: 'CamLingo – 画像から言語を学ぶ | AI搭載翻訳アプリ',
-      description: '写真を撮り、単語をタップして、翻訳、例文、発音を即座に取得。AI搭載の視覚翻訳技術で22言語を学習。iPhoneとiPad用のCamLingoをダウンロード。',
+      description: '文脈記憶は語彙を学ぶ最良の方法です！ Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: '言語学習,翻訳アプリ,AI翻訳,視覚翻訳,写真翻訳,言語アプリ,多言語,OCR翻訳,カメラ翻訳,言語学習,外国語,言語チューター,翻訳ツール,モバイル言語学習,iOS言語アプリ,画像翻訳,テキスト認識,言語辞書,発音ガイド,語彙構築'
     }
   },
   'ko': {
     nav: { features: '기능', pricing: '가격', faq: '자주 묻는 질문', download: '다운로드' },
-    intro: { title: '<span class="accent">이미지</span>에서 언어 학습하기', subtitle: '사진을 찍고, 단어를 탭하여 즉시 번역, 예문, 발음을 얻으세요 – AI 기반.', button: '앱 받기' },
+    intro: { title: '<span class="accent">이미지</span>에서 언어 학습하기', subtitle: '맥락 기억은 어휘를 배우는 가장 좋은 방법입니다!', button: '앱 받기' },
     features: { 
       title: '주요 기능',
       snap: {
         title: '촬영 & 번역',
-        desc: '카메라를 사용하여 모든 텍스트를 캡처합니다. AI 엔진이 단어를 감지하고 몇 초 내에 정확한 번역을 제공합니다.'
-      },
-      visual: {
-        title: '시각적 어휘 구축기', 
-        desc: '개별 단어를 탭하여 발음, 예문을 보고 개인 목록에 저장합니다.'
+        desc: '카메라로 장면이나 물체를 촬영하세요. 장면의 물체를 식별하고 학습하고 싶은 언어의 쓰기와 발음을 가르쳐드립니다.'
       },
       history: {
         title: '기록 및 복습',
@@ -1146,22 +1098,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ko.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ko.html' },
     seo: {
       title: 'CamLingo – 이미지에서 언어 학습하기 | AI 기반 번역 앱',
-      description: '사진을 찍고, 단어를 탭하여 즉시 번역, 예문, 발음을 얻으세요. AI 기반 시각 번역 기술로 22개 언어를 학습하세요. iPhone과 iPad용 CamLingo를 다운로드하세요.',
+      description: '맥락 기억은 어휘를 배우는 가장 좋은 방법입니다! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: '언어 학습,번역 앱,AI 번역,시각 번역,사진 번역,언어 앱,다국어,OCR 번역,카메라 번역,언어 학습,외국어,언어 튜터,번역 도구,모바일 언어 학습,iOS 언어 앱,이미지 번역,텍스트 인식,언어 사전,발음 가이드,어휘 구축'
     }
   },
   'de': {
     nav: { features: 'Funktionen', pricing: 'Preise', faq: 'FAQ', download: 'Herunterladen' },
-    intro: { title: 'Sprachen aus <span class="accent">Bildern</span> lernen', subtitle: 'Machen Sie ein Foto, tippen Sie auf ein Wort und erhalten Sie sofort Übersetzungen, Beispiele und Aussprache – KI-gestützt.', button: 'App herunterladen' },
+    intro: { title: 'Sprachen aus <span class="accent">Bildern</span> lernen', subtitle: 'Kontextuelles Gedächtnis ist die beste Art, Vokabeln zu lernen!', button: 'App herunterladen' },
     features: { 
       title: 'Hauptfunktionen',
       snap: {
         title: 'Fotografieren & Übersetzen',
-        desc: 'Verwenden Sie Ihre Kamera, um beliebigen Text zu erfassen. Unser KI-Motor erkennt Wörter und liefert in Sekunden genaue Übersetzungen.'
-      },
-      visual: {
-        title: 'Visueller Wortschatz-Builder', 
-        desc: 'Tippen Sie auf einzelne Wörter, um Aussprache, Beispielsätze zu sehen und sie in Ihrer persönlichen Liste zu speichern.'
+        desc: 'Verwenden Sie Ihre Kamera, um jede Szene oder Objekt zu erfassen. Wir helfen Ihnen, Objekte in der Szene zu identifizieren und lehren Sie die Schrift und Aussprache in der Sprache, die Sie lernen möchten.'
       },
       history: {
         title: 'Verlauf & Wiederholung',
@@ -1242,22 +1190,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-de.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-de.html' },
     seo: {
       title: 'CamLingo – Sprachen aus Bildern lernen | KI-gestützte Übersetzungs-App',
-      description: 'Machen Sie ein Foto, tippen Sie auf ein Wort und erhalten Sie sofort Übersetzungen, Beispiele und Aussprache. Lernen Sie 22 Sprachen mit KI-gestützter visueller Übersetzung. Laden Sie CamLingo für iPhone und iPad herunter.',
+      description: 'Kontextuelles Gedächtnis ist die beste Art, Vokabeln zu lernen! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'Sprachlernen, Übersetzungs-App, KI-Übersetzung, visuelle Übersetzung, Foto-Übersetzung, Sprach-App, mehrsprachig, OCR-Übersetzung, Kamera-Übersetzung, Sprachen lernen, Fremdsprache, Sprach-Tutor, Übersetzungstool, mobiles Sprachlernen, iOS-Sprach-App, Bildübersetzung, Texterkennung, Sprachwörterbuch, Ausspracheführer, Vokabelaufbau'
     }
   },
   'ru': {
     nav: { features: 'Функции', pricing: 'Цены', faq: 'FAQ', download: 'Скачать' },
-    intro: { title: 'Изучайте языки по <span class="accent">изображениям</span>', subtitle: 'Сделайте фото, нажмите на слово и получите мгновенные переводы, примеры и произношение – на базе ИИ.', button: 'Скачать приложение' },
+    intro: { title: 'Изучайте языки по <span class="accent">изображениям</span>', subtitle: 'Контекстуальная память - лучший способ изучения лексики!', button: 'Скачать приложение' },
     features: { 
       title: 'Основные функции',
       snap: {
         title: 'Сфотографировать и Перевести',
-        desc: 'Используйте камеру для захвата любого текста. Наш ИИ-движок обнаруживает слова и доставляет точные переводы за секунды.'
-      },
-      visual: {
-        title: 'Визуальный Строитель Словаря', 
-        desc: 'Нажмите на отдельные слова, чтобы увидеть произношение, примеры предложений и сохранить их в личном списке.'
+        desc: 'Используйте камеру для захвата любой сцены или объекта. Мы помогаем идентифицировать объекты в сцене и учим письму и произношению на языке, который вы хотите изучить.'
       },
       history: {
         title: 'История и Повторение',
@@ -1338,22 +1282,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ru.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ru.html' },
     seo: {
       title: 'CamLingo – Изучайте языки по изображениям | Приложение для перевода на базе ИИ',
-      description: 'Сделайте фото, нажмите на слово и получите мгновенные переводы, примеры и произношение. Изучайте 22 языка с визуальным переводом на базе ИИ. Скачайте CamLingo для iPhone и iPad.',
+      description: 'Контекстуальная память - лучший способ изучения лексики! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'изучение языков, приложение для перевода, ИИ перевод, визуальный перевод, перевод фото, языковое приложение, многоязычный, OCR перевод, перевод камеры, изучение языков, иностранный язык, языковой репетитор, инструмент перевода, мобильное изучение языков, iOS языковое приложение, перевод изображений, распознавание текста, языковой словарь, руководство по произношению, построение словаря'
     }
   },
   'it': {
     nav: { features: 'Funzionalità', pricing: 'Prezzi', faq: 'FAQ', download: 'Scarica' },
-    intro: { title: 'Impara le lingue dalle <span class="accent">immagini</span>', subtitle: 'Scatta una foto, tocca una parola e ottieni traduzioni, esempi e pronuncia istantanei – alimentato dall\'IA.', button: 'Scarica l\'app' },
+    intro: { title: 'Impara le lingue dalle <span class="accent">immagini</span>', subtitle: 'La memoria contestuale è il modo migliore per imparare il vocabolario!', button: 'Scarica l\'app' },
     features: { 
       title: 'Funzionalità principali',
       snap: {
         title: 'Scatta e Traduci',
-        desc: 'Usa la tua fotocamera per catturare qualsiasi testo. Il nostro motore AI rileva le parole e fornisce traduzioni accurate in secondi.'
-      },
-      visual: {
-        title: 'Costruttore di Vocabolario Visivo', 
-        desc: 'Tocca singole parole per vedere la pronuncia, frasi di esempio e salvarle nella tua lista personale.'
+        desc: 'Usa la tua fotocamera per catturare qualsiasi scena o oggetto. Ti aiutiamo a identificare gli oggetti nella scena e ti insegniamo la scrittura e la pronuncia nella lingua che vuoi imparare.'
       },
       history: {
         title: 'Cronologia e Revisione',
@@ -1434,22 +1374,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-it.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-it.html' },
     seo: {
       title: 'CamLingo – Impara le lingue dalle immagini | App di traduzione alimentata dall\'IA',
-      description: 'Scatta una foto, tocca una parola e ottieni traduzioni, esempi e pronuncia istantanei. Impara 22 lingue con traduzione visiva alimentata dall\'IA. Scarica CamLingo per iPhone e iPad.',
+      description: 'La memoria contestuale è il modo migliore per imparare il vocabolario! Impara 22 lingue con la tecnologia di traduzione visiva alimentata dall\'IA. Scarica CamLingo per iPhone e iPad.',
       keywords: 'apprendimento delle lingue, app di traduzione, traduzione IA, traduzione visiva, traduzione foto, app linguistica, multilingue, traduzione OCR, traduzione fotocamera, imparare le lingue, lingua straniera, tutor linguistico, strumento di traduzione, apprendimento linguistico mobile, app linguistica iOS, traduzione immagini, riconoscimento testo, dizionario linguistico, guida alla pronuncia, costruttore vocabolario'
     }
   },
   'nl': {
     nav: { features: 'Functies', pricing: 'Prijzen', faq: 'FAQ', download: 'Downloaden' },
-    intro: { title: 'Leer talen uit <span class="accent">afbeeldingen</span>', subtitle: 'Maak een foto, tik op een woord en krijg direct vertalingen, voorbeelden en uitspraak – aangedreven door AI.', button: 'App downloaden' },
+    intro: { title: 'Leer talen uit <span class="accent">afbeeldingen</span>', subtitle: 'Contextueel geheugen is de beste manier om vocabulaire te leren!', button: 'App downloaden' },
     features: { 
       title: 'Hoofdfuncties',
       snap: {
         title: 'Fotografeer en Vertaal',
-        desc: 'Gebruik je camera om elke tekst vast te leggen. Onze AI-motor detecteert woorden en levert in seconden nauwkeurige vertalingen.'
-      },
-      visual: {
-        title: 'Visuele Woordenschat Bouwer', 
-        desc: 'Tik op individuele woorden om uitspraak, voorbeeldzinnen te zien en ze op te slaan in je persoonlijke lijst.'
+        desc: 'Gebruik je camera om elke scène of object vast te leggen. We helpen je objecten in de scène te identificeren en leren je de schrijfwijze en uitspraak in de taal die je wilt leren.'
       },
       history: {
         title: 'Geschiedenis en Herhaling',
@@ -1530,22 +1466,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-nl.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-nl.html' },
     seo: {
       title: 'CamLingo – Leer talen uit afbeeldingen | AI-aangedreven vertaal-app',
-      description: 'Maak een foto, tik op een woord en krijg direct vertalingen, voorbeelden en uitspraak. Leer 22 talen met AI-aangedreven visuele vertaling. Download CamLingo voor iPhone en iPad.',
+      description: 'Contextueel geheugen is de beste manier om vocabulaire te leren! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'taal leren, vertaal-app, AI-vertaling, visuele vertaling, foto-vertaling, taal-app, meertalig, OCR-vertaling, camera-vertaling, talen leren, vreemde taal, taaltutor, vertaaltool, mobiel taal leren, iOS taal-app, afbeeldingsvertaling, tekstherkenning, taalwoordenboek, uitspraakgids, vocabulaire opbouwen'
     }
   },
   'ar': {
     nav: { features: 'الميزات', pricing: 'الأسعار', faq: 'الأسئلة الشائعة', download: 'تحميل' },
-    intro: { title: 'تعلم اللغات من <span class="accent">الصور</span>', subtitle: 'التقط صورة، اضغط على كلمة واحصل على الترجمات والأمثلة والنطق فوراً – مدعوم بالذكاء الاصطناعي.', button: 'احصل على التطبيق' },
+    intro: { title: 'تعلم اللغات من <span class="accent">الصور</span>', subtitle: 'الذاكرة السياقية هي أفضل طريقة لتعلم المفردات!', button: 'احصل على التطبيق' },
     features: { 
       title: 'الميزات الرئيسية',
       snap: {
         title: 'التقاط وترجمة',
-        desc: 'استخدم كاميرتك لالتقاط أي نص. محرك الذكاء الاصطناعي لدينا يكتشف الكلمات ويوفر ترجمات دقيقة في ثوانٍ.'
-      },
-      visual: {
-        title: 'منشئ المفردات البصري', 
-        desc: 'اضغط على الكلمات الفردية لرؤية النطق والجمل المثالية وحفظها في قائمتك الشخصية.'
+        desc: 'استخدم كاميرتك لالتقاط أي مشهد أو كائن. نساعدك في تحديد الكائنات في المشهد ونعلمك الكتابة والنطق باللغة التي تريد تعلمها.'
       },
       history: {
         title: 'التاريخ والمراجعة',
@@ -1626,22 +1558,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ar.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ar.html' },
     seo: {
       title: 'CamLingo – تعلم اللغات من الصور | تطبيق ترجمة مدعوم بالذكاء الاصطناعي',
-      description: 'التقط صورة، اضغط على كلمة واحصل على الترجمات والأمثلة والنطق فوراً. تعلم 22 لغة مع الترجمة البصرية المدعومة بالذكاء الاصطناعي. حمل CamLingo للآيفون والآيباد.',
+      description: 'الذاكرة السياقية هي أفضل طريقة لتعلم المفردات! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'تعلم اللغات,تطبيق الترجمة,ترجمة الذكاء الاصطناعي,الترجمة البصرية,ترجمة الصور,تطبيق اللغة,متعدد اللغات,ترجمة OCR,ترجمة الكاميرا,تعلم اللغات,اللغة الأجنبية,معلم اللغة,أداة الترجمة,تعلم اللغات المحمول,تطبيق اللغة iOS,ترجمة الصور,التعرف على النص,قاموس اللغة,دليل النطق,بناء المفردات'
     }
   },
   'hi': {
     nav: { features: 'सुविधाएं', pricing: 'मूल्य', faq: 'सामान्य प्रश्न', download: 'डाउनलोड' },
-    intro: { title: '<span class="accent">छवियों</span> से भाषाएं सीखें', subtitle: 'फोटो लें, शब्द पर टैप करें और तुरंत अनुवाद, उदाहरण और उच्चारण प्राप्त करें – AI द्वारा संचालित।', button: 'ऐप प्राप्त करें' },
+    intro: { title: '<span class="accent">छवियों</span> से भाषाएं सीखें', subtitle: 'संदर्भ स्मृति शब्दावली सीखने का सबसे अच्छा तरीका है!', button: 'ऐप प्राप्त करें' },
     features: { 
       title: 'मुख्य सुविधाएं',
       snap: {
         title: 'फोटो लें और अनुवाद करें',
-        desc: 'किसी भी पाठ को कैप्चर करने के लिए अपने कैमरे का उपयोग करें। हमारा AI इंजन शब्दों का पता लगाता है और सेकंडों में सटीक अनुवाद प्रदान करता है।'
-      },
-      visual: {
-        title: 'विज़ुअल शब्दावली निर्माता', 
-        desc: 'उच्चारण, उदाहरण वाक्य देखने और उन्हें अपनी व्यक्तिगत सूची में सहेजने के लिए अलग-अलग शब्दों पर टैप करें।'
+        desc: 'किसी भी दृश्य या वस्तु को कैप्चर करने के लिए अपने कैमरे का उपयोग करें। हम आपको दृश्य में वस्तुओं की पहचान करने में मदद करते हैं और आपको उस भाषा में लिखने और उच्चारण सिखाते हैं जिसे आप सीखना चाहते हैं।'
       },
       history: {
         title: 'इतिहास और समीक्षा',
@@ -1722,7 +1650,7 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-hi.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-hi.html' },
     seo: {
       title: 'CamLingo – छवियों से भाषाएं सीखें | AI संचालित अनुवाद ऐप',
-      description: 'फोटो लें, शब्द पर टैप करें और तुरंत अनुवाद, उदाहरण और उच्चारण प्राप्त करें। AI संचालित दृश्य अनुवाद के साथ 22 भाषाएं सीखें। iPhone और iPad के लिए CamLingo डाउनलोड करें।',
+      description: 'संदर्भ स्मृति शब्दावली सीखने का सबसे अच्छा तरीका है! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'भाषा सीखना,अनुवाद ऐप,AI अनुवाद,दृश्य अनुवाद,फोटो अनुवाद,भाषा ऐप,बहुभाषी,OCR अनुवाद,कैमरा अनुवाद,भाषाएं सीखना,विदेशी भाषा,भाषा ट्यूटर,अनुवाद उपकरण,मोबाइल भाषा सीखना,iOS भाषा ऐप,छवि अनुवाद,पाठ पहचान,भाषा शब्दकोश,उच्चारण गाइड,शब्दावली निर्माता',
       ogTitle: 'CamLingo – छवियों से भाषाएं सीखें | AI संचालित अनुवाद ऐप',
       ogDescription: 'फोटो लें, शब्द पर टैप करें और तुरंत अनुवाद, उदाहरण और उच्चारण प्राप्त करें। AI संचालित दृश्य अनुवाद के साथ 22 भाषाएं सीखें।',
@@ -1734,16 +1662,12 @@ const i18n = {
   },
   'th': {
     nav: { features: 'คุณสมบัติ', pricing: 'ราคา', faq: 'คำถามที่พบบ่อย', download: 'ดาวน์โหลด' },
-    intro: { title: 'เรียนรู้ภาษาจาก<span class="accent">รูปภาพ</span>', subtitle: 'ถ่ายภาพ แตะคำ และรับการแปล ตัวอย่าง และการออกเสียงทันที – ขับเคลื่อนด้วย AI', button: 'รับแอป' },
+    intro: { title: 'เรียนรู้ภาษาจาก<span class="accent">รูปภาพ</span>', subtitle: 'ความจำตามบริบทเป็นวิธีที่ดีที่สุดในการเรียนรู้คำศัพท์!', button: 'รับแอป' },
     features: { 
       title: 'คุณสมบัติหลัก',
       snap: {
         title: 'ถ่ายภาพและแปล',
-        desc: 'ใช้กล้องของคุณเพื่อจับภาพข้อความใดๆ เครื่องยนต์ AI ของเราตรวจจับคำและให้การแปลที่แม่นยำในไม่กี่วินาที'
-      },
-      visual: {
-        title: 'ตัวสร้างคำศัพท์ภาพ', 
-        desc: 'แตะคำแต่ละคำเพื่อดูการออกเสียง ตัวอย่างประโยค และบันทึกลงในรายการส่วนตัวของคุณ'
+        desc: 'ใช้กล้องของคุณเพื่อจับภาพฉากหรือวัตถุใดๆ เราช่วยคุณระบุวัตถุในฉากและสอนการเขียนและการออกเสียงในภาษาที่คุณต้องการเรียนรู้'
       },
       history: {
         title: 'ประวัติและทบทวน',
@@ -1824,22 +1748,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-th.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-th.html' },
     seo: {
       title: 'CamLingo – เรียนรู้ภาษาจากรูปภาพ | แอปแปลภาษาอัจฉริยะ',
-      description: 'ถ่ายภาพ แตะคำ และรับการแปล ตัวอย่าง และการออกเสียงทันที เรียนรู้ 22 ภาษาด้วยเทคโนโลยีการแปลภาพอัจฉริยะ ดาวน์โหลด CamLingo สำหรับ iPhone และ iPad',
+      description: 'ความจำตามบริบทเป็นวิธีที่ดีที่สุดในการเรียนรู้คำศัพท์! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'การเรียนรู้ภาษา,แอปแปลภาษา,การแปล AI,การแปลภาพ,การแปลรูปภาพ,แอปภาษา,หลายภาษา,การแปล OCR,การแปลกล้อง,การเรียนรู้ภาษา,ภาษาต่างประเทศ,ครูสอนภาษา,เครื่องมือแปล,การเรียนรู้ภาษาบนมือถือ,แอปภาษา iOS,การแปลภาพ,การจดจำข้อความ,พจนานุกรมภาษา,คู่มือการออกเสียง,การสร้างคำศัพท์'
     }
   },
   'vi': {
     nav: { features: 'Tính năng', pricing: 'Giá cả', faq: 'Câu hỏi thường gặp', download: 'Tải xuống' },
-    intro: { title: 'Học ngôn ngữ từ <span class="accent">hình ảnh</span>', subtitle: 'Chụp ảnh, chạm vào từ và nhận bản dịch, ví dụ và phát âm ngay lập tức – được hỗ trợ bởi AI.', button: 'Tải ứng dụng' },
+    intro: { title: 'Học ngôn ngữ từ <span class="accent">hình ảnh</span>', subtitle: 'Trí nhớ ngữ cảnh là cách tốt nhất để học từ vựng!', button: 'Tải ứng dụng' },
     features: { 
       title: 'Tính năng chính',
       snap: {
         title: 'Chụp ảnh và Dịch',
-        desc: 'Sử dụng camera của bạn để chụp bất kỳ văn bản nào. Động cơ AI của chúng tôi phát hiện từ và cung cấp bản dịch chính xác trong vài giây.'
-      },
-      visual: {
-        title: 'Trình tạo từ vựng trực quan', 
-        desc: 'Chạm vào từng từ riêng lẻ để xem cách phát âm, câu ví dụ và lưu chúng vào danh sách cá nhân của bạn.'
+        desc: 'Sử dụng camera của bạn để chụp bất kỳ cảnh hoặc đối tượng nào. Chúng tôi giúp bạn xác định các đối tượng trong cảnh và dạy bạn cách viết và phát âm bằng ngôn ngữ bạn muốn học.'
       },
       history: {
         title: 'Lịch sử và Ôn tập',
@@ -1920,22 +1840,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-vi.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-vi.html' },
     seo: {
       title: 'CamLingo – Học ngôn ngữ từ hình ảnh | Ứng dụng dịch thuật AI',
-      description: 'Chụp ảnh, chạm vào từ và nhận bản dịch, ví dụ và phát âm ngay lập tức. Học 22 ngôn ngữ với công nghệ dịch thuật hình ảnh AI. Tải xuống CamLingo cho iPhone và iPad.',
+      description: 'Trí nhớ ngữ cảnh là cách tốt nhất để học từ vựng! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'học ngôn ngữ,ứng dụng dịch thuật,dịch AI,dịch hình ảnh,dịch ảnh,ứng dụng ngôn ngữ,đa ngôn ngữ,dịch OCR,dịch camera,học ngôn ngữ,ngoại ngữ,gia sư ngôn ngữ,công cụ dịch thuật,học ngôn ngữ di động,ứng dụng ngôn ngữ iOS,dịch hình ảnh,nhận dạng văn bản,từ điển ngôn ngữ,hướng dẫn phát âm,xây dựng từ vựng'
     }
   },
   'tr': {
     nav: { features: 'Özellikler', pricing: 'Fiyatlandırma', faq: 'SSS', download: 'İndir' },
-    intro: { title: '<span class="accent">Görsellerden</span> dil öğrenin', subtitle: 'Fotoğraf çekin, kelimeye dokunun ve anında çeviri, örnekler ve telaffuz alın – AI destekli.', button: 'Uygulamayı al' },
+    intro: { title: '<span class="accent">Görsellerden</span> dil öğrenin', subtitle: 'Bağlamsal hafıza kelime öğrenmenin en iyi yoludur!', button: 'Uygulamayı al' },
     features: { 
       title: 'Ana özellikler',
       snap: {
         title: 'Fotoğraf Çek ve Çevir',
-        desc: 'Herhangi bir metni yakalamak için kameranızı kullanın. AI motorumuz kelimeleri algılar ve saniyeler içinde doğru çeviriler sağlar.'
-      },
-      visual: {
-        title: 'Görsel Kelime Hazinesi Oluşturucu', 
-        desc: 'Telaffuz, örnek cümleler görmek ve bunları kişisel listenize kaydetmek için tek tek kelimelere dokunun.'
+        desc: 'Kameranızı herhangi bir sahne veya nesneyi yakalamak için kullanın. Sahnede nesneleri tanımlamanıza yardım ediyoruz ve öğrenmek istediğiniz dilde yazım ve telaffuz öğretiyoruz.'
       },
       history: {
         title: 'Geçmiş ve Gözden Geçirme',
@@ -2016,22 +1932,18 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-tr.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-tr.html' },
     seo: {
       title: 'CamLingo – Görsellerden dil öğrenin | AI destekli çeviri uygulaması',
-      description: 'Fotoğraf çekin, kelimeye dokunun ve anında çeviri, örnekler ve telaffuz alın. AI destekli görsel çeviri teknolojisi ile 22 dil öğrenin. iPhone ve iPad için CamLingo indirin.',
+      description: 'Bağlamsal hafıza kelime öğrenmenin en iyi yoludur! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'dil öğrenme,çeviri uygulaması,AI çeviri,görsel çeviri,fotoğraf çeviri,dil uygulaması,çok dilli,OCR çeviri,kamera çeviri,dil öğrenme,yabancı dil,dil öğretmeni,çeviri aracı,mobil dil öğrenme,iOS dil uygulaması,görsel çeviri,metin tanıma,dil sözlüğü,telaffuz rehberi,kelime oluşturma'
     }
   },
   'pl': {
     nav: { features: 'Funkcje', pricing: 'Cennik', faq: 'FAQ', download: 'Pobierz' },
-    intro: { title: 'Ucz się języków z <span class="accent">obrazów</span>', subtitle: 'Zrób zdjęcie, dotknij słowo i otrzymaj natychmiastowe tłumaczenia, przykłady i wymowę – napędzane AI.', button: 'Pobierz aplikację' },
+    intro: { title: 'Ucz się języków z <span class="accent">obrazów</span>', subtitle: 'Pamięć kontekstowa to najlepszy sposób na naukę słownictwa!', button: 'Pobierz aplikację' },
     features: { 
       title: 'Główne funkcje',
       snap: {
         title: 'Zrób zdjęcie i przetłumacz',
-        desc: 'Użyj aparatu do przechwycenia dowolnego tekstu. Nasz silnik AI wykrywa słowa i dostarcza dokładne tłumaczenia w ciągu sekund.'
-      },
-      visual: {
-        title: 'Wizualny konstruktor słownictwa', 
-        desc: 'Dotknij pojedyncze słowa, aby zobaczyć wymowę, przykładowe zdania i zapisz je na swojej osobistej liście.'
+        desc: 'Użyj aparatu, aby uchwycić dowolną scenę lub obiekt. Pomagamy zidentyfikować obiekty w scenie i uczymy pisania oraz wymowy w języku, którego chcesz się uczyć.'
       },
       history: {
         title: 'Historia i powtórka',
@@ -2112,7 +2024,7 @@ const i18n = {
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-pl.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-pl.html' },
     seo: {
       title: 'CamLingo – Ucz się języków z obrazów | Aplikacja do tłumaczenia napędzana AI',
-      description: 'Zrób zdjęcie, dotknij słowo i otrzymaj natychmiastowe tłumaczenia, przykłady i wymowę. Ucz się 22 języków z technologią tłumaczenia obrazów napędzaną AI. Pobierz CamLingo dla iPhone i iPad.',
+      description: 'Pamięć kontekstowa to najlepszy sposób na naukę słownictwa! Learn 22 languages with AI-powered visual translation technology. Download CamLingo for iPhone and iPad.',
       keywords: 'nauka języków,aplikacja do tłumaczenia,tłumaczenie AI,tłumaczenie wizualne,tłumaczenie zdjęć,aplikacja językowa,wielojęzyczny,tłumaczenie OCR,tłumaczenie kamery,nauka języków,język obcy,korepetytor językowy,narzędzie do tłumaczenia,mobilna nauka języków,aplikacja językowa iOS,tłumaczenie obrazów,rozpoznawanie tekstu,słownik językowy,przewodnik wymowy,budowanie słownictwa'
     }
   }

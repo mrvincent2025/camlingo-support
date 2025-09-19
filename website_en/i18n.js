@@ -83,6 +83,7 @@ const i18n = {
       privacy: 'Privacy Policy', 
       terms: 'Terms of Use', 
       contact: 'Contact Support',
+      partners: 'Partners',
       copyright: '© 2025 CamLingo. All rights reserved.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy.html' },
@@ -175,6 +176,7 @@ const i18n = {
       privacy: 'Privacy Policy', 
       terms: 'Terms of Use', 
       contact: 'Contact Support',
+      partners: 'Partners',
       copyright: '© 2025 CamLingo. All rights reserved.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-en-uk.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-en-gb.html' },
@@ -267,6 +269,7 @@ const i18n = {
       privacy: '隐私政策', 
       terms: '使用条款', 
       contact: '联系支持',
+      partners: '合作伙伴',
       copyright: '© 2025 CamLingo. 保留所有权利。'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-zh-cn.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-zh-cn.html' },
@@ -359,6 +362,7 @@ const i18n = {
       privacy: '隱私政策', 
       terms: '使用條款', 
       contact: '聯繫支持',
+      partners: '合作夥伴',
       copyright: '© 2025 CamLingo. 保留所有權利。'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-zh-tw.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-zh-tw.html' },
@@ -451,6 +455,7 @@ const i18n = {
       privacy: 'Política de privacidad', 
       terms: 'Términos de uso', 
       contact: 'Contactar soporte',
+      partners: 'Socios',
       copyright: '© 2025 CamLingo. Todos los derechos reservados.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-es-es.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-es-es.html' },
@@ -543,6 +548,7 @@ const i18n = {
       privacy: 'Política de privacidad', 
       terms: 'Términos de uso', 
       contact: 'Contactar soporte',
+      partners: 'Socios',
       copyright: '© 2025 CamLingo. Todos los derechos reservados.'
     },
     seo: {
@@ -634,6 +640,7 @@ const i18n = {
       privacy: 'Politique de confidentialité', 
       terms: 'Conditions d\'utilisation', 
       contact: 'Contacter le support',
+      partners: 'Partenaires',
       copyright: '© 2025 CamLingo. Tous droits réservés.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-fr-fr.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-fr-fr.html' },
@@ -726,6 +733,7 @@ const i18n = {
       privacy: 'Politique de confidentialité', 
       terms: 'Conditions d\'utilisation', 
       contact: 'Contacter le support',
+      partners: 'Partenaires',
       copyright: '© 2025 CamLingo. Tous droits réservés.'
     },
     seo: {
@@ -817,6 +825,7 @@ const i18n = {
       privacy: 'Política de privacidade', 
       terms: 'Termos de utilização', 
       contact: 'Contactar suporte',
+      partners: 'Parceiros',
       copyright: '© 2025 CamLingo. Todos os direitos reservados.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-pt-pt.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-pt-pt.html' },
@@ -1001,6 +1010,7 @@ const i18n = {
       privacy: 'プライバシーポリシー', 
       terms: '利用規約', 
       contact: 'サポートに連絡',
+      partners: 'パートナー',
       copyright: '© 2025 CamLingo. 全著作権所有。'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ja.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ja.html' },
@@ -1093,6 +1103,7 @@ const i18n = {
       privacy: '개인정보 처리방침', 
       terms: '이용약관', 
       contact: '지원팀 문의',
+      partners: '파트너',
       copyright: '© 2025 CamLingo. 모든 권리 보유.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ko.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ko.html' },
@@ -1185,6 +1196,7 @@ const i18n = {
       privacy: 'Datenschutzrichtlinie', 
       terms: 'Nutzungsbedingungen', 
       contact: 'Support kontaktieren',
+      partners: 'Partner',
       copyright: '© 2025 CamLingo. Alle Rechte vorbehalten.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-de.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-de.html' },
@@ -1277,6 +1289,7 @@ const i18n = {
       privacy: 'Политика конфиденциальности', 
       terms: 'Условия использования', 
       contact: 'Связаться с поддержкой',
+      partners: 'Партнеры',
       copyright: '© 2025 CamLingo. Все права защищены.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ru.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ru.html' },
@@ -1369,6 +1382,7 @@ const i18n = {
       privacy: 'Informativa sulla privacy', 
       terms: 'Termini di utilizzo', 
       contact: 'Contatta il supporto',
+      partners: 'Partner',
       copyright: '© 2025 CamLingo. Tutti i diritti riservati.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-it.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-it.html' },
@@ -1461,6 +1475,7 @@ const i18n = {
       privacy: 'Privacybeleid', 
       terms: 'Gebruiksvoorwaarden', 
       contact: 'Support contacten',
+      partners: 'Partners',
       copyright: '© 2025 CamLingo. Alle rechten voorbehouden.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-nl.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-nl.html' },
@@ -1553,6 +1568,7 @@ const i18n = {
       privacy: 'سياسة الخصوصية', 
       terms: 'شروط الاستخدام', 
       contact: 'اتصل بالدعم',
+      partners: 'الشركاء',
       copyright: '© 2025 CamLingo. جميع الحقوق محفوظة.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-ar.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-ar.html' },
@@ -1645,6 +1661,7 @@ const i18n = {
       privacy: 'गोपनीयता नीति', 
       terms: 'उपयोग की शर्तें', 
       contact: 'सहायता से संपर्क करें',
+      partners: 'भागीदार',
       copyright: '© 2025 CamLingo. सर्वाधिकार सुरक्षित।'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-hi.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-hi.html' },
@@ -1743,6 +1760,7 @@ const i18n = {
       privacy: 'นโยบายความเป็นส่วนตัว', 
       terms: 'ข้อกำหนดการใช้งาน', 
       contact: 'ติดต่อฝ่ายสนับสนุน',
+      partners: 'พันธมิตร',
       copyright: '© 2025 CamLingo. สงวนลิขสิทธิ์'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-th.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-th.html' },
@@ -1835,6 +1853,7 @@ const i18n = {
       privacy: 'Chính sách bảo mật', 
       terms: 'Điều khoản sử dụng', 
       contact: 'Liên hệ hỗ trợ',
+      partners: 'Đối tác',
       copyright: '© 2025 CamLingo. Đã đăng ký bản quyền.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-vi.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-vi.html' },
@@ -1927,6 +1946,7 @@ const i18n = {
       privacy: 'Gizlilik politikası', 
       terms: 'Kullanım şartları', 
       contact: 'Destek ile iletişim',
+      partners: 'Ortaklar',
       copyright: '© 2025 CamLingo. Tüm hakları saklıdır.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-tr.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-tr.html' },
@@ -2019,6 +2039,7 @@ const i18n = {
       privacy: 'Polityka prywatności', 
       terms: 'Warunki użytkowania', 
       contact: 'Skontaktuj się z pomocą techniczną',
+      partners: 'Partnerzy',
       copyright: '© 2025 CamLingo. Wszystkie prawa zastrzeżone.'
     },
     links: { support: 'https://mrvincent2025.github.io/camlingo-support/index-pl.html', privacy: 'https://mrvincent2025.github.io/camlingo-support/privacy-pl.html' },
